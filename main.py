@@ -1,74 +1,83 @@
-from requests import get
-from re import findall
-from time import sleep
+"""
+Module for tracking offers on sites specified in config.yaml.
+"""
+
 from datetime import datetime
-from os import makedirs, path
-from job_portals.nfj import nfj
-from job_portals.jjt import jjt
-from job_portals.bdj import bdj
-from job_portals.sj import sj
-import yaml
+from os import path
+from yaml import load, safe_dump, SafeLoader  # pylint: disable=E0401
+from job_portals.nfj import NoFluffJobs
+from job_portals.jjt import JustJoinIT
+from job_portals.bdj import BullDogJob
+from job_portals.sj import SolidJobs
+
 
 OFFERS_DIRECTORY = "offers/"
 FINAL_FILE = "".join([OFFERS_DIRECTORY, "job_offers.yaml"])
 # job_portals = ["nfj", "jjt", "bdj", "sj"]
-job_portals = ["nfj"]
+JOB_PORTALS = ["nfj"]
+TODAY = str(datetime.now().strftime("%d.%m.%Y"))
 
 
 def load_yaml(filepath: str):
-    with open(file=filepath, mode="r") as f:
-        return yaml.load(stream=f, Loader=yaml.SafeLoader)
+    """
+    Loads the yaml file, e.g.: load existing offers/job_offers.yaml
+    """
+    with open(file=filepath, mode="r", encoding="utf-8") as old_file:
+        return load(stream=old_file, Loader=SafeLoader)
 
 
 def save_yaml(filepath: str, content: list[dict]):
-    with open(file=filepath, mode="w") as f:
-        yaml.safe_dump(data=content, stream=f)
+    """
+    Saves content as yaml, e.g.: saving new offers to offers/job_offers.yaml
+    """
+    with open(file=filepath, mode="w", encoding="utf-8") as new_file:
+        safe_dump(data=content, stream=new_file)
 
 
 def check_if_f_exists_else_empty_dict(filepath: str):
+    """
+    Checks whether filepath, e.g.: offers/job_offers.yaml, exists, if not, returns empty dict.
+    """
     res = path.isfile(filepath)
     if res:
         content = load_yaml(filepath=filepath)
-        if content != None:
+        if content is not None:
             return content
     return {}
 
 
-def load_per_job_portal(jp_name: str, content: list[dict] = None):
+def load_per_job_portal(jp_name: str):
+    """
+    Fetches content from each job portal, based on jp_name.
+    """
     match jp_name:
         case "nfj":
-            jobs = nfj()
-            jobs.load_todays_offers()
+            jobs = NoFluffJobs()
+            jobs.load_offers()
             return jobs.content
 
         case "jjt":
-            jobs = jjt()
-            if content:
-                jobs.load(content)
-            else:
-                jobs.load()
+            jobs = JustJoinIT()
+            jobs.load_offers()
             return jobs.content
 
         case "bdj":
-            jobs = bdj()
-            if content:
-                jobs.load(content)
-            else:
-                jobs.load()
+            jobs = BullDogJob()
+            jobs.load_offers()
             return jobs.content
 
         case "sj":
-            jobs = sj()
-            if content:
-                jobs.load(content)
-            else:
-                jobs.load()
+            jobs = SolidJobs()
+            jobs.load_offers()
             return jobs.content
 
     return None
 
 
 def prepare_dict(my_dict: dict, date):
+    """
+    Initialize dictionary with today's date
+    """
     if date not in my_dict:
         my_dict[date] = {}
 
@@ -76,13 +85,12 @@ def prepare_dict(my_dict: dict, date):
 
 
 if __name__ == "__main__":
-    today = str(datetime.now().strftime("%d.%m.%Y"))
     final_dict = check_if_f_exists_else_empty_dict(FINAL_FILE)
-    final_dict = prepare_dict(my_dict=final_dict, date=today)
-    for job_portal in job_portals:
-        jp_content = load_per_job_portal(jp_name=job_portal)
-        if jp_content != None:
-            final_dict[today][job_portal] = jp_content
+    final_dict = prepare_dict(my_dict=final_dict, date=TODAY)
+    for job_portal in JOB_PORTALS:
+        JP_CONTENT = load_per_job_portal(jp_name=job_portal)
+        if JP_CONTENT is not None:
+            final_dict[TODAY][job_portal] = JP_CONTENT
         else:
             print(f"Did not receive any content from {job_portal}.")
 

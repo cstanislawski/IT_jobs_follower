@@ -1,32 +1,39 @@
-from requests import get
+"""
+Module for handling NoFluffJobs (https://nofluffjobs.com/pl) offers tracker.
+"""
 from time import sleep
 from re import findall
-from yaml import load, SafeLoader
+from requests import get  # pylint: disable=E0401
+from yaml import load, SafeLoader  # pylint: disable=E0401
 
 
-class nfj:
+class NoFluffJobs:  # pylint: disable=R0903
+    """
+    Class processing data from NoFluffJobs sites.
+    """
+
     def __init__(self):
-        with open(file="config.yaml", mode="r") as f:
-            self.nfj_config = load(stream=f, Loader=SafeLoader)["nfj"]
+        with open(file="config.yaml", mode="r", encoding="utf-8") as config_file:
+            self.nfj_config = load(stream=config_file, Loader=SafeLoader)["nfj"]
         self.base_url = self.nfj_config["base_url"]
         self.url_search_regex = self.nfj_config["regex"]
         self.data_sources = self.nfj_config["data_sources"]
-
-    def load_todays_offers(self):
-        """
-        Loads all the offers present in the URL, within all the pages matching self.url_search_regex
-        """
         self.content = []
+
+    def load_offers(self):
+        """
+        Loads all the offers present in data_sources, searches pages matching search_regex
+        """
         for src in self.data_sources:
             page = 1
             while True:
-                r = get(src['url'] + str(page))
-                r = r.content.decode("utf-8")
-                job_offers = findall(self.url_search_regex, r)
+                request = get(src["url"] + str(page))
+                request = request.content.decode("utf-8")
+                job_offers = findall(self.url_search_regex, request)
                 if len(job_offers) > 0:
-                    content = {src['label']: []}
+                    content = {src["label"]: []}
                     for job in job_offers:
-                        content[src['label']].append(
+                        content[src["label"]].append(
                             {
                                 "id": str(findall(r"([\d\w]+(\-[\d\w]+)+)", job)[0][1]).replace(
                                     "-", ""
