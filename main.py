@@ -4,10 +4,9 @@ from time import sleep
 from datetime import datetime
 from os import makedirs, path
 from job_portals.nfj import nfj
-
-# from job_portals.jjt import jjt
-# from job_portals.bdj import bdj
-# from job_portals.sj import sj
+from job_portals.jjt import jjt
+from job_portals.bdj import bdj
+from job_portals.sj import sj
 import yaml
 
 OFFERS_DIRECTORY = "offers/"
