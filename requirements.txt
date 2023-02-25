@@ -3,3 +3,5 @@ pylint
 black
 requests
 time
+pre-commit
+pyyaml

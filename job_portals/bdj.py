@@ -1,14 +1,18 @@
-from main import OFFERS_DIRECTORY
-from os import makedirs
-from requests import get
-from time import sleep
-from os import makedirs
-from re import findall
+"""
+Module for handling bulldogjob (https://bulldogjob.pl/) offers tracker.
+"""
 
 
-class bdj:
+class BullDogJob:  # pylint: disable=R0903
+    """
+    Class processing data from bulldogjob sites.
+    """
+
     def __init__(self):
-        pass
+        self.content = ""
 
-    def load_todays_offers(self):
-        pass
+    def load_offers(self):
+        """
+        Loads all the offers present in data_sources, searches pages matching search_regex
+        """
+        print(self.content)
