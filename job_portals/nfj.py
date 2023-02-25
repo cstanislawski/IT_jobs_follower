@@ -40,3 +40,4 @@ class nfj:
                 else:
                     break
                 sleep(0.1)
+
