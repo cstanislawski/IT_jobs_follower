@@ -2,6 +2,7 @@ categories:
   - devops
   - cloud devops
   - it admin
+
 nfj:
   base_url: "https://nofluffjobs.com/"
   regex: "pl/job[^\"]*"
@@ -14,13 +15,14 @@ nfj:
       url: "https://nofluffjobs.com/pl/it-administrator?criteria=employment%3Dpermanent&page="
       category: it admin
 
-# jjt:
-#   source_url: "https://justjoin.it/all/all/mid/20k?q=DevOps@category&employmentType=b2b&tab=with-salary&sort=salary"
-#   base_url: "https://nofluffjobs.com"
-#   regex: 'href=\"\/pl\/job\/[^]*"'
-#   swap:
-#     what_chars: '"'
-#     what_for: ''
+jjt:
+  api_url: "https://justjoin.it/api/offers/"
+  offer_url: "https://justjoin.it/offers/"
+  data_sources:
+    - label: aws regular devops b2b 20k+
+      url: "https://justjoin.it/remote/all/mid/20k?q=DevOps@category;AWS@skill&employmentType=b2b&tab=with-salary&sort=salary"
+      category: cloud devops
+
 # bdj:
 #   source_url: "https://bulldogjob.pl/companies/jobs/s/role,devops/skills,AWS,Python/experienceLevel,medium/withSalary,true/salaryBrackets,20000,50000"
 #   base_url: "https://nofluffjobs.com"

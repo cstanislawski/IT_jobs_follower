@@ -2,6 +2,8 @@ pytest
 pylint
 black
 requests
-time
+types-requests
 pre-commit
 pyyaml
+types-PyYAML
+mypy

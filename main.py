@@ -4,21 +4,24 @@ Module for tracking offers on sites specified in config.yaml.
 
 from datetime import datetime
 from os import path
+from typing import List, Dict, Any
 from yaml import load, safe_dump, SafeLoader  # pylint: disable=E0401
 from job_portals.nfj import NoFluffJobs
 from job_portals.jjt import JustJoinIT
-from job_portals.bdj import BullDogJob
-from job_portals.sj import SolidJobs
+
+# from job_portals.bdj import BullDogJob
+# from job_portals.sj import SolidJobs
 
 
 OFFERS_DIRECTORY = "offers/"
 FINAL_FILE = "".join([OFFERS_DIRECTORY, "job_offers.yaml"])
-# job_portals = ["nfj", "jjt", "bdj", "sj"]
-JOB_PORTALS = ["nfj"]
+# JOB_PORTALS = ["nfj","jjt","bdj","sj"]
+# JOB_PORTALS = ["nfj"]
+JOB_PORTALS = ["nfj", "jjt"]
 TODAY = str(datetime.now().strftime("%d.%m.%Y"))
 
 
-def load_yaml(filepath: str):
+def load_yaml(filepath: str) -> List[Dict[Any, Any]]:
     """
     Loads the yaml file, e.g.: load existing offers/job_offers.yaml
     """
@@ -26,7 +29,7 @@ def load_yaml(filepath: str):
         return load(stream=old_file, Loader=SafeLoader)
 
 
-def save_yaml(filepath: str, content: list[dict]):
+def save_yaml(filepath: str, content: Dict[Any, Any]) -> None:
     """
     Saves content as yaml, e.g.: saving new offers to offers/job_offers.yaml
     """
@@ -34,7 +37,7 @@ def save_yaml(filepath: str, content: list[dict]):
         safe_dump(data=content, stream=new_file)
 
 
-def check_if_f_exists_else_empty_dict(filepath: str):
+def check_if_f_exists_else_empty_dict(filepath: str) -> List[Dict[Any, Any]]:
     """
     Checks whether filepath, e.g.: offers/job_offers.yaml, exists, if not, returns empty dict.
     """
@@ -46,35 +49,35 @@ def check_if_f_exists_else_empty_dict(filepath: str):
     return {}
 
 
-def load_per_job_portal(jp_name: str):
+def load_per_job_portal(jp_name: str) -> str:
     """
     Fetches content from each job portal, based on jp_name.
     """
     match jp_name:
         case "nfj":
-            jobs = NoFluffJobs()
-            jobs.load_offers()
-            return jobs.content
+            nfj_jobs = NoFluffJobs()
+            nfj_jobs.load_offers()
+            return nfj_jobs.content
 
         case "jjt":
-            jobs = JustJoinIT()
-            jobs.load_offers()
-            return jobs.content
+            jjt_jobs = JustJoinIT()
+            jjt_jobs.load_offers()
+            return jjt_jobs.content
 
-        case "bdj":
-            jobs = BullDogJob()
-            jobs.load_offers()
-            return jobs.content
+        # case "bdj":
+        #     bdj_jobs = BullDogJob()
+        #     bdj_jobs.load_offers()
+        #     return bdj_jobs.content
 
-        case "sj":
-            jobs = SolidJobs()
-            jobs.load_offers()
-            return jobs.content
+        # case "sj":
+        #     sj_jobs = SolidJobs()
+        #     sj_jobs.load_offers()
+        #     return sj_jobs.content
 
-    return None
+    raise TypeError
 
 
-def prepare_dict(my_dict: dict, date):
+def prepare_dict(my_dict: dict, date: str) -> dict:
     """
     Initialize dictionary with today's date
     """

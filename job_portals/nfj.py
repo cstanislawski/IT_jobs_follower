@@ -12,7 +12,7 @@ class NoFluffJobs:  # pylint: disable=R0903
     Class processing data from NoFluffJobs sites.
     """
 
-    def __init__(self):
+    def __init__(self) -> None:
         with open(file="config.yaml", mode="r", encoding="utf-8") as config_file:
             self.nfj_config = load(stream=config_file, Loader=SafeLoader)["nfj"]
         self.base_url = self.nfj_config["base_url"]
@@ -20,7 +20,7 @@ class NoFluffJobs:  # pylint: disable=R0903
         self.data_sources = self.nfj_config["data_sources"]
         self.content = []
 
-    def load_offers(self):
+    def load_offers(self) -> None:
         """
         Loads all the offers present in data_sources, searches pages matching search_regex
         """
