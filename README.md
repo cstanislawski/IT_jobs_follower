@@ -4,8 +4,9 @@ Supported job portals:
 
 NoFluffJobs
 
-JustJoinIT
 
-BulldogJob
+Jobs portal planned to support:
 
-SolidJobs
+- JustJoinIT,
+- BulldogJob,
+- SolidJobs

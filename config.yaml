@@ -1,29 +1,37 @@
-portals:
-  nofluffjobs:
-    source_url: "https://nofluffjobs.com/pl/devops?criteria=employment%3Db2b%20seniority%3Dmid%20requirement%3DAWS%20salary%3Epln20000m"
-    base_url: "https://nofluffjobs.com"
-    regex: 'href=\"\/pl\/job\/[^]*"'
-    swap:
-      what_chars: '"'
-      what_for: ''
-  justjoinit:
-    source_url: "https://justjoin.it/all/all/mid/20k?q=DevOps@category&employmentType=b2b&tab=with-salary&sort=salary"
-    base_url: "https://nofluffjobs.com"
-    regex: 'href=\"\/pl\/job\/[^]*"'
-    swap:
-      what_chars: '"'
-      what_for: ''
-  bulldogjob:
-    source_url: "https://bulldogjob.pl/companies/jobs/s/role,devops/skills,AWS,Python/experienceLevel,medium/withSalary,true/salaryBrackets,20000,50000"
-    base_url: "https://nofluffjobs.com"
-    regex: 'href=\"\/pl\/job\/[^]*"'
-    swap:
-      what_chars: '"'
-      what_for: ''
-  solid.jobs:
-    source_url: "https://solid.jobs/offers/it;searchTerm=aws,B2B;experiences=Regular;minimumSalary=20000;categories=DevOps;cities=Praca%20zdalna"
-    base_url: "https://nofluffjobs.com"
-    regex: 'href=\"\/pl\/job\/[^]*"'
-    swap:
-      what_chars: '"'
-      what_for: ''
+categories:
+  - devops
+  - cloud devops
+  - it admin
+nfj:
+  base_url: "https://nofluffjobs.com/"
+  regex: "pl/job[^\"]*"
+  data_sources:
+    - label: aws regular devops b2b 20k+
+      url: "https://nofluffjobs.com/pl/praca-zdalna/devops?criteria=employment%3Db2b%20requirement%3DAWS%20salary%3Epln20000m%20%20seniority%3Dmid&page="
+      category: cloud devops
+
+    - label: it admin uop
+      url: "https://nofluffjobs.com/pl/it-administrator?criteria=employment%3Dpermanent&page="
+      category: it admin
+
+# jjt:
+#   source_url: "https://justjoin.it/all/all/mid/20k?q=DevOps@category&employmentType=b2b&tab=with-salary&sort=salary"
+#   base_url: "https://nofluffjobs.com"
+#   regex: 'href=\"\/pl\/job\/[^]*"'
+#   swap:
+#     what_chars: '"'
+#     what_for: ''
+# bdj:
+#   source_url: "https://bulldogjob.pl/companies/jobs/s/role,devops/skills,AWS,Python/experienceLevel,medium/withSalary,true/salaryBrackets,20000,50000"
+#   base_url: "https://nofluffjobs.com"
+#   regex: 'href=\"\/pl\/job\/[^]*"'
+#   swap:
+#     what_chars: '"'
+#     what_for: ''
+# sj:
+#   source_url: "https://solid.jobs/offers/it;searchTerm=aws,B2B;experiences=Regular;minimumSalary=20000;categories=DevOps;cities=Praca%20zdalna"
+#   base_url: "https://nofluffjobs.com"
+#   regex: 'href=\"\/pl\/job\/[^]*"'
+#   swap:
+#     what_chars: '"'
+  #     what_for: ''

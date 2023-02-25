@@ -4,6 +4,7 @@ from time import sleep
 from datetime import datetime
 from os import makedirs, path
 from job_portals.nfj import nfj
+
 # from job_portals.jjt import jjt
 # from job_portals.bdj import bdj
 # from job_portals.sj import sj
@@ -11,7 +12,7 @@ import yaml
 
 OFFERS_DIRECTORY = "offers/"
 FINAL_FILE = "".join([OFFERS_DIRECTORY, "job_offers.yaml"])
-#job_portals = ["nfj", "jjt", "bdj", "sj"]
+# job_portals = ["nfj", "jjt", "bdj", "sj"]
 job_portals = ["nfj"]
 
 
@@ -22,7 +23,7 @@ def load_yaml(filepath: str):
 
 def save_yaml(filepath: str, content: list[dict]):
     with open(file=filepath, mode="w") as f:
-        return yaml.dump(data=content, stream=f)
+        yaml.safe_dump(data=content, stream=f)
 
 
 def check_if_f_exists_else_empty_dict(filepath: str):
@@ -67,11 +68,13 @@ def load_per_job_portal(jp_name: str, content: list[dict] = None):
 
     return None
 
+
 def prepare_dict(my_dict: dict, date):
     if date not in my_dict:
         my_dict[date] = {}
 
     return my_dict
+
 
 if __name__ == "__main__":
     today = str(datetime.now().strftime("%d.%m.%Y"))
@@ -82,6 +85,6 @@ if __name__ == "__main__":
         if jp_content != None:
             final_dict[today][job_portal] = jp_content
         else:
-            print(f'Did not receive any content from {job_portal}.')
-    
+            print(f"Did not receive any content from {job_portal}.")
+
     save_yaml(FINAL_FILE, final_dict)

@@ -1,59 +1,170 @@
 25.02.2023:
   nfj:
-  - id: zpmbvfju
-    job_name: mid-senior-devops-engineer-link-group-remote-zpmbvfju
-    url: https://nofluffjobs.com/pl/job/mid-senior-devops-engineer-link-group-remote-zpmbvfju
-  - id: alcuncxe
-    job_name: aws-cloud-engieer-iteo-remote-alcuncxe
-    url: https://nofluffjobs.com/pl/job/aws-cloud-engieer-iteo-remote-alcuncxe
-  - id: hheajmva
-    job_name: remote-devops-specialist-moonfox-creative-agency-hheajmva
-    url: https://nofluffjobs.com/pl/job/remote-devops-specialist-moonfox-creative-agency-hheajmva
-  - id: rg1t4lvq
-    job_name: senior-aws-devops-engineer-cloudbest-remote-rg1t4lvq
-    url: https://nofluffjobs.com/pl/job/senior-aws-devops-engineer-cloudbest-remote-rg1t4lvq
-  - id: 5rlz8idl
-    job_name: devops-engineer-avenga-remote-5rlz8idl
-    url: https://nofluffjobs.com/pl/job/devops-engineer-avenga-remote-5rlz8idl
-  - id: 8updyocz
-    job_name: devops-engineer-avenga-remote-8updyocz
-    url: https://nofluffjobs.com/pl/job/devops-engineer-avenga-remote-8updyocz
-  - id: wsoczbec
-    job_name: devops-engineer-with-kubernetes-harman-connected-services-remote-wsoczbec
-    url: https://nofluffjobs.com/pl/job/devops-engineer-with-kubernetes-harman-connected-services-remote-wsoczbec
-  - id: 8xwpfyti
-    job_name: remote-devops-engineer-aws-azure-link-group-8xwpfyti
-    url: https://nofluffjobs.com/pl/job/remote-devops-engineer-aws-azure-link-group-8xwpfyti
-  - id: lirw9zfr
-    job_name: devops-engineer-ynd-technologies-remote-lirw9zfr
-    url: https://nofluffjobs.com/pl/job/devops-engineer-ynd-technologies-remote-lirw9zfr
-  - id: 03p78b8y
-    job_name: remote-devops-engineer-squareone-03p78b8y
-    url: https://nofluffjobs.com/pl/job/remote-devops-engineer-squareone-03p78b8y
-  - id: zggihxzp
-    job_name: devops-engineer-kz-inspire-remote-zggihxzp
-    url: https://nofluffjobs.com/pl/job/devops-engineer-kz-inspire-remote-zggihxzp
-  - id: kedogmow
-    job_name: devops-middle-senior-koia-remote-kedogmow
-    url: https://nofluffjobs.com/pl/job/devops-middle-senior-koia-remote-kedogmow
-  - id: thzrxf2h
-    job_name: devops-engineer-iceo-venture-builder-remote-thzrxf2h
-    url: https://nofluffjobs.com/pl/job/devops-engineer-iceo-venture-builder-remote-thzrxf2h
-  - id: fj2mp2uz
-    job_name: devops-engineer-remote-coro-fj2mp2uz
-    url: https://nofluffjobs.com/pl/job/devops-engineer-remote-coro-fj2mp2uz
-  - id: mu5tadkn
-    job_name: remote-database-developer-clearscale-mu5tadkn
-    url: https://nofluffjobs.com/pl/job/remote-database-developer-clearscale-mu5tadkn
-  - id: 2fxhwyir
-    job_name: remote-devops-cloud-engineer-onwelo-2fxhwyir
-    url: https://nofluffjobs.com/pl/job/remote-devops-cloud-engineer-onwelo-2fxhwyir
-  - id: zsjh6oep
-    job_name: mid-senior-devops-engineer-precisely-remote-zsjh6oep
-    url: https://nofluffjobs.com/pl/job/mid-senior-devops-engineer-precisely-remote-zsjh6oep
-  - id: f4wtsq7w
-    job_name: devops-data-automation-engineer-architec-fujitsu-technology-solutions-remote-f4wtsq7w
-    url: https://nofluffjobs.com/pl/job/devops-data-automation-engineer-architec-fujitsu-technology-solutions-remote-f4wtsq7w
-  - id: eosdta9a
-    job_name: devops-engineer-100-remote-avenga-eosdta9a
-    url: https://nofluffjobs.com/pl/job/devops-engineer-100-remote-avenga-eosdta9a
+  - aws regular devops b2b 20k+:
+    - id: zpmbvfju
+      job_name: mid-senior-devops-engineer-link-group-remote-zpmbvfju
+      url: https://nofluffjobs.com/pl/job/mid-senior-devops-engineer-link-group-remote-zpmbvfju
+    - id: alcuncxe
+      job_name: aws-cloud-engieer-iteo-remote-alcuncxe
+      url: https://nofluffjobs.com/pl/job/aws-cloud-engieer-iteo-remote-alcuncxe
+    - id: hheajmva
+      job_name: remote-devops-specialist-moonfox-creative-agency-hheajmva
+      url: https://nofluffjobs.com/pl/job/remote-devops-specialist-moonfox-creative-agency-hheajmva
+    - id: rg1t4lvq
+      job_name: senior-aws-devops-engineer-cloudbest-remote-rg1t4lvq
+      url: https://nofluffjobs.com/pl/job/senior-aws-devops-engineer-cloudbest-remote-rg1t4lvq
+    - id: 5rlz8idl
+      job_name: devops-engineer-avenga-remote-5rlz8idl
+      url: https://nofluffjobs.com/pl/job/devops-engineer-avenga-remote-5rlz8idl
+    - id: 8updyocz
+      job_name: devops-engineer-avenga-remote-8updyocz
+      url: https://nofluffjobs.com/pl/job/devops-engineer-avenga-remote-8updyocz
+    - id: wsoczbec
+      job_name: devops-engineer-with-kubernetes-harman-connected-services-remote-wsoczbec
+      url: https://nofluffjobs.com/pl/job/devops-engineer-with-kubernetes-harman-connected-services-remote-wsoczbec
+    - id: 8xwpfyti
+      job_name: remote-devops-engineer-aws-azure-link-group-8xwpfyti
+      url: https://nofluffjobs.com/pl/job/remote-devops-engineer-aws-azure-link-group-8xwpfyti
+    - id: lirw9zfr
+      job_name: devops-engineer-ynd-technologies-remote-lirw9zfr
+      url: https://nofluffjobs.com/pl/job/devops-engineer-ynd-technologies-remote-lirw9zfr
+    - id: 03p78b8y
+      job_name: remote-devops-engineer-squareone-03p78b8y
+      url: https://nofluffjobs.com/pl/job/remote-devops-engineer-squareone-03p78b8y
+    - id: zggihxzp
+      job_name: devops-engineer-kz-inspire-remote-zggihxzp
+      url: https://nofluffjobs.com/pl/job/devops-engineer-kz-inspire-remote-zggihxzp
+    - id: kedogmow
+      job_name: devops-middle-senior-koia-remote-kedogmow
+      url: https://nofluffjobs.com/pl/job/devops-middle-senior-koia-remote-kedogmow
+    - id: thzrxf2h
+      job_name: devops-engineer-iceo-venture-builder-remote-thzrxf2h
+      url: https://nofluffjobs.com/pl/job/devops-engineer-iceo-venture-builder-remote-thzrxf2h
+    - id: fj2mp2uz
+      job_name: devops-engineer-remote-coro-fj2mp2uz
+      url: https://nofluffjobs.com/pl/job/devops-engineer-remote-coro-fj2mp2uz
+    - id: mu5tadkn
+      job_name: remote-database-developer-clearscale-mu5tadkn
+      url: https://nofluffjobs.com/pl/job/remote-database-developer-clearscale-mu5tadkn
+    - id: 2fxhwyir
+      job_name: remote-devops-cloud-engineer-onwelo-2fxhwyir
+      url: https://nofluffjobs.com/pl/job/remote-devops-cloud-engineer-onwelo-2fxhwyir
+    - id: zsjh6oep
+      job_name: mid-senior-devops-engineer-precisely-remote-zsjh6oep
+      url: https://nofluffjobs.com/pl/job/mid-senior-devops-engineer-precisely-remote-zsjh6oep
+    - id: f4wtsq7w
+      job_name: devops-data-automation-engineer-architec-fujitsu-technology-solutions-remote-f4wtsq7w
+      url: https://nofluffjobs.com/pl/job/devops-data-automation-engineer-architec-fujitsu-technology-solutions-remote-f4wtsq7w
+    - id: eosdta9a
+      job_name: devops-engineer-100-remote-avenga-eosdta9a
+      url: https://nofluffjobs.com/pl/job/devops-engineer-100-remote-avenga-eosdta9a
+  - it admin uop:
+    - id: jggpvvpx
+      job_name: it-application-packaging-specialist-kelly-services-poland-warszawa-jggpvvpx
+      url: https://nofluffjobs.com/pl/job/it-application-packaging-specialist-kelly-services-poland-warszawa-jggpvvpx
+    - id: bd0ye5il
+      job_name: it-storage-specialist-kelly-services-poland-warszawa-bd0ye5il
+      url: https://nofluffjobs.com/pl/job/it-storage-specialist-kelly-services-poland-warszawa-bd0ye5il
+    - id: 7qfpbmhs
+      job_name: system-engineer-klimawent-gdynia-7qfpbmhs
+      url: https://nofluffjobs.com/pl/job/system-engineer-klimawent-gdynia-7qfpbmhs
+    - id: dlpi1ci5
+      job_name: glowny-specjalista-systemy-it-exorigo-upos-remote-dlpi1ci5
+      url: https://nofluffjobs.com/pl/job/glowny-specjalista-systemy-it-exorigo-upos-remote-dlpi1ci5
+    - id: 30agedmh
+      job_name: network-operations-engineer-hays-poland-remote-30agedmh
+      url: https://nofluffjobs.com/pl/job/network-operations-engineer-hays-poland-remote-30agedmh
+    - id: e3yqooyi
+      job_name: it-operations-administrator-soltec-sp-k-warszawa-e3yqooyi
+      url: https://nofluffjobs.com/pl/job/it-operations-administrator-soltec-sp-k-warszawa-e3yqooyi
+    - id: juparvfs
+      job_name: remote-escrow-accounts-administrator-softsystem-juparvfs
+      url: https://nofluffjobs.com/pl/job/remote-escrow-accounts-administrator-softsystem-juparvfs
+    - id: t71gawhr
+      job_name: mid-it-architect-panstwowy-instytut-medyczny-mawia-warszawa-t71gawhr
+      url: https://nofluffjobs.com/pl/job/mid-it-architect-panstwowy-instytut-medyczny-mawia-warszawa-t71gawhr
+    - id: ljoksm2y
+      job_name: remote-mid-oracle-dba-natek-poland-ljoksm2y
+      url: https://nofluffjobs.com/pl/job/remote-mid-oracle-dba-natek-poland-ljoksm2y
+    - id: pjoj3lki
+      job_name: linux-administrator-devops-engineer-antal-wroclaw-pjoj3lki
+      url: https://nofluffjobs.com/pl/job/linux-administrator-devops-engineer-antal-wroclaw-pjoj3lki
+    - id: gm6rwpp7
+      job_name: mid-database-administrator-softsystem-rzeszow-gm6rwpp7
+      url: https://nofluffjobs.com/pl/job/mid-database-administrator-softsystem-rzeszow-gm6rwpp7
+    - id: co3iu404
+      job_name: mid-it-systems-architect-softsystem-rzeszow-co3iu404
+      url: https://nofluffjobs.com/pl/job/mid-it-systems-architect-softsystem-rzeszow-co3iu404
+    - id: drflzqo6
+      job_name: associate-system-engineer-with-german-opitz-consulting-polska-remote-drflzqo6
+      url: https://nofluffjobs.com/pl/job/associate-system-engineer-with-german-opitz-consulting-polska-remote-drflzqo6
+    - id: leq5dom2
+      job_name: specjalista-it-zespol-parametryzacji-bnp-paribas-group-service-center-warszawa-leq5dom2
+      url: https://nofluffjobs.com/pl/job/specjalista-it-zespol-parametryzacji-bnp-paribas-group-service-center-warszawa-leq5dom2
+    - id: efqvofos
+      job_name: mid-it-administrator-symbioza-it-poznan-efqvofos
+      url: https://nofluffjobs.com/pl/job/mid-it-administrator-symbioza-it-poznan-efqvofos
+    - id: a4id39lw
+      job_name: database-administrator-jamf-remote-a4id39lw
+      url: https://nofluffjobs.com/pl/job/database-administrator-jamf-remote-a4id39lw
+    - id: n3dyxks0
+      job_name: actuarial-manager-fis-technology-services-poland-warsaw-n3dyxks0
+      url: https://nofluffjobs.com/pl/job/actuarial-manager-fis-technology-services-poland-warsaw-n3dyxks0
+    - id: sl3h7ha4
+      job_name: administrator-it-pixel-technology-lodz-sl3h7ha4
+      url: https://nofluffjobs.com/pl/job/administrator-it-pixel-technology-lodz-sl3h7ha4
+    - id: qnupkof0
+      job_name: it-asset-analyst-falck-it-poland-warszawa-qnupkof0
+      url: https://nofluffjobs.com/pl/job/it-asset-analyst-falck-it-poland-warszawa-qnupkof0
+    - id: 72ga0d39
+      job_name: linux-system-administrator-inuits-remote-72ga0d39
+      url: https://nofluffjobs.com/pl/job/linux-system-administrator-inuits-remote-72ga0d39
+  - it admin uop:
+    - id: nptvoevv
+      job_name: it-administrator-adaptiq-remote-nptvoevv
+      url: https://nofluffjobs.com/pl/job/it-administrator-adaptiq-remote-nptvoevv
+    - id: 4zdglvhw
+      job_name: remote-mid-senior-tibco-specialist-natek-poland-4zdglvhw
+      url: https://nofluffjobs.com/pl/job/remote-mid-senior-tibco-specialist-natek-poland-4zdglvhw
+    - id: 8eyii5ij
+      job_name: junior-sysops-it-administrator-bright-it-wroclaw-8eyii5ij
+      url: https://nofluffjobs.com/pl/job/junior-sysops-it-administrator-bright-it-wroclaw-8eyii5ij
+    - id: 7dmozkne
+      job_name: remote-it-administrator-business-online-services-7dmozkne
+      url: https://nofluffjobs.com/pl/job/remote-it-administrator-business-online-services-7dmozkne
+    - id: mjdzo76e
+      job_name: remote-it-operation-network-specialist-amer-sports-mjdzo76e
+      url: https://nofluffjobs.com/pl/job/remote-it-operation-network-specialist-amer-sports-mjdzo76e
+    - id: neeirirn
+      job_name: servicenow-administrator-jeronimo-martins-polska-remote-neeirirn
+      url: https://nofluffjobs.com/pl/job/servicenow-administrator-jeronimo-martins-polska-remote-neeirirn
+    - id: n43pndfy
+      job_name: it-coordinator-spectrum-hr-warszawa-n43pndfy
+      url: https://nofluffjobs.com/pl/job/it-coordinator-spectrum-hr-warszawa-n43pndfy
+    - id: ovomwpm4
+      job_name: junior-it-administrator-wave-gdynia-ovomwpm4
+      url: https://nofluffjobs.com/pl/job/junior-it-administrator-wave-gdynia-ovomwpm4
+    - id: 4kxl5kep
+      job_name: mlodszy-programista-bazy-danych-p-p-h-legs-aleksandrowlodzki-4kxl5kep
+      url: https://nofluffjobs.com/pl/job/mlodszy-programista-bazy-danych-p-p-h-legs-aleksandrowlodzki-4kxl5kep
+    - id: xy587k3r
+      job_name: mlodszy-inzynier-systemowy-devops-it-integro-poznan-xy587k3r
+      url: https://nofluffjobs.com/pl/job/mlodszy-inzynier-systemowy-devops-it-integro-poznan-xy587k3r
+    - id: lr717bhg
+      job_name: system-administrator-anton-haring-kg-bubsheim-lr717bhg
+      url: https://nofluffjobs.com/pl/job/system-administrator-anton-haring-kg-bubsheim-lr717bhg
+    - id: ijqwa1rp
+      job_name: administrator-systemow-linux-urzad-miasta-krakowa-krakow-ijqwa1rp
+      url: https://nofluffjobs.com/pl/job/administrator-systemow-linux-urzad-miasta-krakowa-krakow-ijqwa1rp
+    - id: a3ym4wcc
+      job_name: linux-system-administrator-ulyssys-kft-budapest-a3ym4wcc
+      url: https://nofluffjobs.com/pl/job/linux-system-administrator-ulyssys-kft-budapest-a3ym4wcc
+    - id: lesgz0i7
+      job_name: windows-rendszergazda-ulyssys-kft-budapest-lesgz0i7
+      url: https://nofluffjobs.com/pl/job/windows-rendszergazda-ulyssys-kft-budapest-lesgz0i7
+    - id: fvzb6h46
+      job_name: it-cloud-system-administrator-idbc-creative-solutions-kft-budapest-fvzb6h46
+      url: https://nofluffjobs.com/pl/job/it-cloud-system-administrator-idbc-creative-solutions-kft-budapest-fvzb6h46
+    - id: 6d46shk4
+      job_name: junior-data-analytics-assistant-international-testing-agency-budapest-6d46shk4
+      url: https://nofluffjobs.com/pl/job/junior-data-analytics-assistant-international-testing-agency-budapest-6d46shk4
