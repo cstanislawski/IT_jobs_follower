@@ -10,5 +10,5 @@ class jjt:
     def __init__(self):
         pass
 
-    def load(self):
+    def load_todays_offers(self):
         pass

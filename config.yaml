@@ -7,7 +7,7 @@ portals:
       what_chars: '"'
       what_for: ''
   justjoinit:
-    source_url: "https://justjoin.it/all/all/mid/21k?q=DevOps@category&employmentType=b2b&tab=with-salary&sort=salary"
+    source_url: "https://justjoin.it/all/all/mid/20k?q=DevOps@category&employmentType=b2b&tab=with-salary&sort=salary"
     base_url: "https://nofluffjobs.com"
     regex: 'href=\"\/pl\/job\/[^]*"'
     swap:
