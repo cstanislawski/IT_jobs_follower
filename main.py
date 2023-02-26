@@ -96,5 +96,6 @@ if __name__ == "__main__":
             final_dict[TODAY][job_portal] = JP_CONTENT
         else:
             print(f"Did not receive any content from {job_portal}.")
+        print(f"Done searching {job_portal}.")
 
     save_yaml(FINAL_FILE, final_dict)

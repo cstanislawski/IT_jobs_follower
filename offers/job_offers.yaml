@@ -1,5 +1,130 @@
-25.02.2023:
-  jjt: []
+26.02.2023:
+  jjt:
+  - aws regular devops b2b 20k+:
+    - id: peopletrust-sp-z-o-o-devops-with-aws-warszawa
+      job_name: DevOps with AWS
+      url: https://justjoin.it/offers/peopletrust-sp-z-o-o-devops-with-aws-warszawa
+    - id: primaris-cloud-devops-engineer
+      job_name: Cloud DevOps Engineer
+      url: https://justjoin.it/offers/primaris-cloud-devops-engineer
+    - id: it-lumier-devops-aws
+      job_name: Devops AWS
+      url: https://justjoin.it/offers/it-lumier-devops-aws
+    - id: alter-solutions-polska-aws-devops-engineer-warszawa
+      job_name: AWS DevOps Engineer
+      url: https://justjoin.it/offers/alter-solutions-polska-aws-devops-engineer-warszawa
+    - id: it-lumier-devops-aws-lodz
+      job_name: Devops AWS
+      url: https://justjoin.it/offers/it-lumier-devops-aws-lodz
+    - id: it-lumier-devops-aws-gdansk
+      job_name: Devops AWS
+      url: https://justjoin.it/offers/it-lumier-devops-aws-gdansk
+    - id: it-lumier-devops-aws-krakow
+      job_name: Devops AWS
+      url: https://justjoin.it/offers/it-lumier-devops-aws-krakow
+    - id: alter-solutions-polska-aws-devops-engineer-ee956ea3-418f-4d6e-b485-e926328dafaa
+      job_name: AWS DevOps Engineer
+      url: https://justjoin.it/offers/alter-solutions-polska-aws-devops-engineer-ee956ea3-418f-4d6e-b485-e926328dafaa
+    - id: alter-solutions-polska-aws-devops-engineer-276d8f4d-c2ef-4ab0-b771-c31ac94f153a
+      job_name: AWS DevOps Engineer
+      url: https://justjoin.it/offers/alter-solutions-polska-aws-devops-engineer-276d8f4d-c2ef-4ab0-b771-c31ac94f153a
+    - id: alter-solutions-polska-aws-devops-engineer-4f7ed86e-2133-4aa8-baa6-ee956aac280e
+      job_name: AWS DevOps Engineer
+      url: https://justjoin.it/offers/alter-solutions-polska-aws-devops-engineer-4f7ed86e-2133-4aa8-baa6-ee956aac280e
+    - id: alter-solutions-polska-aws-devops-engineer-07e7a205-d736-4d65-ac3b-144015772706
+      job_name: AWS DevOps Engineer
+      url: https://justjoin.it/offers/alter-solutions-polska-aws-devops-engineer-07e7a205-d736-4d65-ac3b-144015772706
+    - id: alter-solutions-polska-aws-devops-engineer-d74cc583-81de-48fc-9618-c865a97ed46d
+      job_name: AWS DevOps Engineer
+      url: https://justjoin.it/offers/alter-solutions-polska-aws-devops-engineer-d74cc583-81de-48fc-9618-c865a97ed46d
+    - id: peopletrust-sp-z-o-o-devops-with-aws-dd729c00-e73b-40b4-a2b4-c03b7fbe673e
+      job_name: DevOps with AWS
+      url: https://justjoin.it/offers/peopletrust-sp-z-o-o-devops-with-aws-dd729c00-e73b-40b4-a2b4-c03b7fbe673e
+    - id: peopletrust-sp-z-o-o-devops-with-aws-gdansk
+      job_name: DevOps with AWS
+      url: https://justjoin.it/offers/peopletrust-sp-z-o-o-devops-with-aws-gdansk
+    - id: peopletrust-sp-z-o-o-devops-with-aws-2215f554-b26f-4a5c-8173-989768f4101f
+      job_name: DevOps with AWS
+      url: https://justjoin.it/offers/peopletrust-sp-z-o-o-devops-with-aws-2215f554-b26f-4a5c-8173-989768f4101f
+    - id: peopletrust-sp-z-o-o-devops-with-aws-krakow
+      job_name: DevOps with AWS
+      url: https://justjoin.it/offers/peopletrust-sp-z-o-o-devops-with-aws-krakow
+    - id: peopletrust-sp-z-o-o-devops-with-aws-1598359f-fda0-493e-adb9-391b51ede1ec
+      job_name: DevOps with AWS
+      url: https://justjoin.it/offers/peopletrust-sp-z-o-o-devops-with-aws-1598359f-fda0-493e-adb9-391b51ede1ec
+  - junior pm warsaw:
+    - id: sente-junior-project-manager-wroclaw
+      job_name: Junior Project Manager
+      url: https://justjoin.it/offers/sente-junior-project-manager-wroclaw
+    - id: itds-junior-it-project-manager-warszawa
+      job_name: Junior IT Project Manager
+      url: https://justjoin.it/offers/itds-junior-it-project-manager-warszawa
+    - id: sky-gate-junior-project-manager
+      job_name: Junior Project Manager
+      url: https://justjoin.it/offers/sky-gate-junior-project-manager
+    - id: primotly-junior-project-business-manager
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager
+    - id: primaris-project-manager-assistant
+      job_name: Project Manager Assistant
+      url: https://justjoin.it/offers/primaris-project-manager-assistant
+    - id: acaisoft-project-delivery-manager
+      job_name: Project / Delivery Manager
+      url: https://justjoin.it/offers/acaisoft-project-delivery-manager
+    - id: primotly-junior-project-business-manager-krakow
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-krakow
+    - id: primotly-junior-project-business-manager-wroclaw
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-wroclaw
+    - id: primotly-junior-project-business-manager-gdansk
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-gdansk
+    - id: primotly-junior-project-business-manager-poznan
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-poznan
+    - id: primotly-junior-project-business-manager-lodz
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-lodz
+    - id: primotly-junior-project-business-manager-bydgoszcz
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-bydgoszcz
+    - id: primotly-junior-project-business-manager-szczecin
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-szczecin
+    - id: primotly-junior-project-business-manager-bialystok
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-bialystok
+    - id: primotly-junior-project-business-manager-lublin
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-lublin
+    - id: primotly-junior-project-business-manager-rzeszow
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-rzeszow
+    - id: primotly-junior-project-business-manager-katowice
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-katowice
+    - id: primotly-junior-project-business-manager-radom
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-radom
+    - id: primotly-junior-project-business-manager-czestochowa
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-czestochowa
+    - id: primotly-junior-project-business-manager-kielce
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-kielce
+    - id: primotly-junior-project-business-manager-olsztyn
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-olsztyn
+    - id: primotly-junior-project-business-manager-rybnik
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-rybnik
+    - id: primotly-junior-project-business-manager-zielona-gora
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-zielona-gora
+    - id: primotly-junior-project-business-manager-bielsko-biala
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-bielsko-biala
   nfj:
   - aws regular devops b2b 20k+:
     - id: zpmbvfju
@@ -20,6 +145,9 @@
     - id: 8updyocz
       job_name: devops-engineer-avenga-remote-8updyocz
       url: https://nofluffjobs.com/pl/job/devops-engineer-avenga-remote-8updyocz
+    - id: zggihxzp
+      job_name: devops-engineer-kz-inspire-remote-zggihxzp
+      url: https://nofluffjobs.com/pl/job/devops-engineer-kz-inspire-remote-zggihxzp
     - id: wsoczbec
       job_name: devops-engineer-with-kubernetes-harman-connected-services-remote-wsoczbec
       url: https://nofluffjobs.com/pl/job/devops-engineer-with-kubernetes-harman-connected-services-remote-wsoczbec
@@ -32,9 +160,6 @@
     - id: 03p78b8y
       job_name: remote-devops-engineer-squareone-03p78b8y
       url: https://nofluffjobs.com/pl/job/remote-devops-engineer-squareone-03p78b8y
-    - id: zggihxzp
-      job_name: devops-engineer-kz-inspire-remote-zggihxzp
-      url: https://nofluffjobs.com/pl/job/devops-engineer-kz-inspire-remote-zggihxzp
     - id: kedogmow
       job_name: devops-middle-senior-koia-remote-kedogmow
       url: https://nofluffjobs.com/pl/job/devops-middle-senior-koia-remote-kedogmow
@@ -59,113 +184,16 @@
     - id: eosdta9a
       job_name: devops-engineer-100-remote-avenga-eosdta9a
       url: https://nofluffjobs.com/pl/job/devops-engineer-100-remote-avenga-eosdta9a
-  - it admin uop:
-    - id: jggpvvpx
-      job_name: it-application-packaging-specialist-kelly-services-poland-warszawa-jggpvvpx
-      url: https://nofluffjobs.com/pl/job/it-application-packaging-specialist-kelly-services-poland-warszawa-jggpvvpx
-    - id: bd0ye5il
-      job_name: it-storage-specialist-kelly-services-poland-warszawa-bd0ye5il
-      url: https://nofluffjobs.com/pl/job/it-storage-specialist-kelly-services-poland-warszawa-bd0ye5il
-    - id: 7qfpbmhs
-      job_name: system-engineer-klimawent-gdynia-7qfpbmhs
-      url: https://nofluffjobs.com/pl/job/system-engineer-klimawent-gdynia-7qfpbmhs
-    - id: dlpi1ci5
-      job_name: glowny-specjalista-systemy-it-exorigo-upos-remote-dlpi1ci5
-      url: https://nofluffjobs.com/pl/job/glowny-specjalista-systemy-it-exorigo-upos-remote-dlpi1ci5
-    - id: 30agedmh
-      job_name: network-operations-engineer-hays-poland-remote-30agedmh
-      url: https://nofluffjobs.com/pl/job/network-operations-engineer-hays-poland-remote-30agedmh
-    - id: e3yqooyi
-      job_name: it-operations-administrator-soltec-sp-k-warszawa-e3yqooyi
-      url: https://nofluffjobs.com/pl/job/it-operations-administrator-soltec-sp-k-warszawa-e3yqooyi
-    - id: juparvfs
-      job_name: remote-escrow-accounts-administrator-softsystem-juparvfs
-      url: https://nofluffjobs.com/pl/job/remote-escrow-accounts-administrator-softsystem-juparvfs
-    - id: t71gawhr
-      job_name: mid-it-architect-panstwowy-instytut-medyczny-mawia-warszawa-t71gawhr
-      url: https://nofluffjobs.com/pl/job/mid-it-architect-panstwowy-instytut-medyczny-mawia-warszawa-t71gawhr
-    - id: ljoksm2y
-      job_name: remote-mid-oracle-dba-natek-poland-ljoksm2y
-      url: https://nofluffjobs.com/pl/job/remote-mid-oracle-dba-natek-poland-ljoksm2y
-    - id: pjoj3lki
-      job_name: linux-administrator-devops-engineer-antal-wroclaw-pjoj3lki
-      url: https://nofluffjobs.com/pl/job/linux-administrator-devops-engineer-antal-wroclaw-pjoj3lki
-    - id: gm6rwpp7
-      job_name: mid-database-administrator-softsystem-rzeszow-gm6rwpp7
-      url: https://nofluffjobs.com/pl/job/mid-database-administrator-softsystem-rzeszow-gm6rwpp7
-    - id: co3iu404
-      job_name: mid-it-systems-architect-softsystem-rzeszow-co3iu404
-      url: https://nofluffjobs.com/pl/job/mid-it-systems-architect-softsystem-rzeszow-co3iu404
-    - id: drflzqo6
-      job_name: associate-system-engineer-with-german-opitz-consulting-polska-remote-drflzqo6
-      url: https://nofluffjobs.com/pl/job/associate-system-engineer-with-german-opitz-consulting-polska-remote-drflzqo6
-    - id: leq5dom2
-      job_name: specjalista-it-zespol-parametryzacji-bnp-paribas-group-service-center-warszawa-leq5dom2
-      url: https://nofluffjobs.com/pl/job/specjalista-it-zespol-parametryzacji-bnp-paribas-group-service-center-warszawa-leq5dom2
-    - id: efqvofos
-      job_name: mid-it-administrator-symbioza-it-poznan-efqvofos
-      url: https://nofluffjobs.com/pl/job/mid-it-administrator-symbioza-it-poznan-efqvofos
-    - id: a4id39lw
-      job_name: database-administrator-jamf-remote-a4id39lw
-      url: https://nofluffjobs.com/pl/job/database-administrator-jamf-remote-a4id39lw
-    - id: n3dyxks0
-      job_name: actuarial-manager-fis-technology-services-poland-warsaw-n3dyxks0
-      url: https://nofluffjobs.com/pl/job/actuarial-manager-fis-technology-services-poland-warsaw-n3dyxks0
-    - id: sl3h7ha4
-      job_name: administrator-it-pixel-technology-lodz-sl3h7ha4
-      url: https://nofluffjobs.com/pl/job/administrator-it-pixel-technology-lodz-sl3h7ha4
-    - id: qnupkof0
-      job_name: it-asset-analyst-falck-it-poland-warszawa-qnupkof0
-      url: https://nofluffjobs.com/pl/job/it-asset-analyst-falck-it-poland-warszawa-qnupkof0
-    - id: 72ga0d39
-      job_name: linux-system-administrator-inuits-remote-72ga0d39
-      url: https://nofluffjobs.com/pl/job/linux-system-administrator-inuits-remote-72ga0d39
-  - it admin uop:
-    - id: nptvoevv
-      job_name: it-administrator-adaptiq-remote-nptvoevv
-      url: https://nofluffjobs.com/pl/job/it-administrator-adaptiq-remote-nptvoevv
-    - id: 4zdglvhw
-      job_name: remote-mid-senior-tibco-specialist-natek-poland-4zdglvhw
-      url: https://nofluffjobs.com/pl/job/remote-mid-senior-tibco-specialist-natek-poland-4zdglvhw
-    - id: 8eyii5ij
-      job_name: junior-sysops-it-administrator-bright-it-wroclaw-8eyii5ij
-      url: https://nofluffjobs.com/pl/job/junior-sysops-it-administrator-bright-it-wroclaw-8eyii5ij
-    - id: 7dmozkne
-      job_name: remote-it-administrator-business-online-services-7dmozkne
-      url: https://nofluffjobs.com/pl/job/remote-it-administrator-business-online-services-7dmozkne
-    - id: mjdzo76e
-      job_name: remote-it-operation-network-specialist-amer-sports-mjdzo76e
-      url: https://nofluffjobs.com/pl/job/remote-it-operation-network-specialist-amer-sports-mjdzo76e
-    - id: neeirirn
-      job_name: servicenow-administrator-jeronimo-martins-polska-remote-neeirirn
-      url: https://nofluffjobs.com/pl/job/servicenow-administrator-jeronimo-martins-polska-remote-neeirirn
-    - id: n43pndfy
-      job_name: it-coordinator-spectrum-hr-warszawa-n43pndfy
-      url: https://nofluffjobs.com/pl/job/it-coordinator-spectrum-hr-warszawa-n43pndfy
-    - id: ovomwpm4
-      job_name: junior-it-administrator-wave-gdynia-ovomwpm4
-      url: https://nofluffjobs.com/pl/job/junior-it-administrator-wave-gdynia-ovomwpm4
-    - id: 4kxl5kep
-      job_name: mlodszy-programista-bazy-danych-p-p-h-legs-aleksandrowlodzki-4kxl5kep
-      url: https://nofluffjobs.com/pl/job/mlodszy-programista-bazy-danych-p-p-h-legs-aleksandrowlodzki-4kxl5kep
-    - id: xy587k3r
-      job_name: mlodszy-inzynier-systemowy-devops-it-integro-poznan-xy587k3r
-      url: https://nofluffjobs.com/pl/job/mlodszy-inzynier-systemowy-devops-it-integro-poznan-xy587k3r
-    - id: lr717bhg
-      job_name: system-administrator-anton-haring-kg-bubsheim-lr717bhg
-      url: https://nofluffjobs.com/pl/job/system-administrator-anton-haring-kg-bubsheim-lr717bhg
-    - id: ijqwa1rp
-      job_name: administrator-systemow-linux-urzad-miasta-krakowa-krakow-ijqwa1rp
-      url: https://nofluffjobs.com/pl/job/administrator-systemow-linux-urzad-miasta-krakowa-krakow-ijqwa1rp
-    - id: a3ym4wcc
-      job_name: linux-system-administrator-ulyssys-kft-budapest-a3ym4wcc
-      url: https://nofluffjobs.com/pl/job/linux-system-administrator-ulyssys-kft-budapest-a3ym4wcc
-    - id: lesgz0i7
-      job_name: windows-rendszergazda-ulyssys-kft-budapest-lesgz0i7
-      url: https://nofluffjobs.com/pl/job/windows-rendszergazda-ulyssys-kft-budapest-lesgz0i7
-    - id: fvzb6h46
-      job_name: it-cloud-system-administrator-idbc-creative-solutions-kft-budapest-fvzb6h46
-      url: https://nofluffjobs.com/pl/job/it-cloud-system-administrator-idbc-creative-solutions-kft-budapest-fvzb6h46
-    - id: 6d46shk4
-      job_name: junior-data-analytics-assistant-international-testing-agency-budapest-6d46shk4
-      url: https://nofluffjobs.com/pl/job/junior-data-analytics-assistant-international-testing-agency-budapest-6d46shk4
+  - juniop pm warsaw:
+    - id: nzawzy66
+      job_name: remote-junior-project-manager-link-group-warszawa-nzawzy66
+      url: https://nofluffjobs.com/pl/job/remote-junior-project-manager-link-group-warszawa-nzawzy66
+    - id: ykidhgxu
+      job_name: project-delivery-manager-acaisoft-poland-warszawa-ykidhgxu
+      url: https://nofluffjobs.com/pl/job/project-delivery-manager-acaisoft-poland-warszawa-ykidhgxu
+    - id: ckrvw79t
+      job_name: junior-it-project-manager-with-german-milo-solutions-ou-remote-ckrvw79t
+      url: https://nofluffjobs.com/pl/job/junior-it-project-manager-with-german-milo-solutions-ou-remote-ckrvw79t
+    - id: 02oja8g2
+      job_name: team-planner-assistant-pmo-ework-group-remote-02oja8g2
+      url: https://nofluffjobs.com/pl/job/team-planner-assistant-pmo-ework-group-remote-02oja8g2

@@ -1,27 +1,27 @@
 categories:
   - devops
   - cloud devops
-  - it admin
+  - pm
 
 nfj:
-  base_url: "https://nofluffjobs.com/"
-  regex: "pl/job[^\"]*"
   data_sources:
     - label: aws regular devops b2b 20k+
       url: "https://nofluffjobs.com/pl/praca-zdalna/devops?criteria=employment%3Db2b%20requirement%3DAWS%20salary%3Epln20000m%20%20seniority%3Dmid&page="
       category: cloud devops
 
-    - label: it admin uop
-      url: "https://nofluffjobs.com/pl/it-administrator?criteria=employment%3Dpermanent&page="
-      category: it admin
+    - label: juniop pm warsaw
+      url: "https://nofluffjobs.com/pl/warszawa/project-manager?criteria=seniority%3Djunior&page="
+      category: pm
 
 jjt:
-  api_url: "https://justjoin.it/api/offers/"
-  offer_url: "https://justjoin.it/offers/"
   data_sources:
     - label: aws regular devops b2b 20k+
-      url: "https://justjoin.it/remote/all/mid/20k?q=DevOps@category;AWS@skill&employmentType=b2b&tab=with-salary&sort=salary"
+      url: "https://justjoin.it/remote/all/mid/20k?q=AWS@skill;DevOps@category&employmentType=b2b&tab=with-salary"
       category: cloud devops
+
+    - label: junior pm warsaw
+      url: https://justjoin.it/all/all/junior?q=PM@category;Warszawa@city&tab=with-salary
+      category: pm
 
 # bdj:
 #   source_url: "https://bulldogjob.pl/companies/jobs/s/role,devops/skills,AWS,Python/experienceLevel,medium/withSalary,true/salaryBrackets,20000,50000"
