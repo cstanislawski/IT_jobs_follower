@@ -1,19 +1,16 @@
 # IT offers follower
 
-Supported job portals:
+### Supported job portals:
 
 NoFluffJobs
 
 JustJoinIT
 
-Jobs portals planned to support:
+#### Jobs portals planned to support:
 
 - BulldogJob,
 - SolidJobs
 
-Functionalities planned to support:
-
-labels
 
 #### How to use:
 
@@ -21,6 +18,8 @@ Add label and url with filters to [offers/job_offers.yaml](offers/job_offers.yam
 
 
 #### TO DO:
+
+Functionalities planned to support:
 
 - List salary & sort by it in [job_offers.yaml](offers/job_offers.yaml)
 - [JJT-only] If offer is present for multiple cities, then link the main offer with cities listed below
