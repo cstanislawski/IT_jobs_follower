@@ -3,7 +3,8 @@ Module for handling NoFluffJobs (https://nofluffjobs.com/pl) offers tracker.
 """
 from time import sleep
 from re import findall
-from requests import get  # pylint: disable=E0401
+from requests import Session  # pylint: disable=E0401
+from requests.adapters import HTTPAdapter, Retry  # pylint: disable=E0401
 from yaml import load, SafeLoader  # pylint: disable=E0401
 
 
@@ -25,10 +26,14 @@ class NoFluffJobs:  # pylint: disable=R0903
         """
         Loads all the offers present in data_sources, searches pages matching __REGEX
         """
+        retries = 5
         for src in self.data_sources:
             page = 1
             while True:
-                request = get(src["url"] + str(page))
+                session = Session()
+                retries = Retry(total=5, backoff_factor=1)
+                session.mount("https://", HTTPAdapter(max_retries=retries))
+                request = session.get(src["url"] + str(page))
                 request = request.content.decode("utf-8")
                 job_offers = findall(self.__REGEX, request)
                 if len(job_offers) > 0:

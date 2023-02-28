@@ -3,7 +3,8 @@ Module for handling JustJoinIT (https://justjoin.it/?tab=with-salary) offers tra
 """
 from re import findall  # pylint: disable=W0611
 from json import loads
-from requests import get  # pylint: disable=E0401
+from requests import Session  # pylint: disable=E0401
+from requests.adapters import HTTPAdapter, Retry  # pylint: disable=E0401
 from yaml import load, SafeLoader  # pylint: disable=E0401
 
 
@@ -57,7 +58,10 @@ class JustJoinIT:  # pylint: disable=R0903
         2. remote?q=DevOps@category&employmentType=b2b&tab=with-salary
 
         """
-        request = get(self.__API_URL)
+        session = Session()
+        retries = Retry(total=5, backoff_factor=1)
+        session.mount("https://", HTTPAdapter(max_retries=retries))
+        request = session.get(self.__API_URL)
         request = request.content.decode("utf-8")
         request = loads(request)
         for src in self.data_sources:
