@@ -1,0 +1,5 @@
+scalene
+pre-commit
+pytest
+pylint
+black

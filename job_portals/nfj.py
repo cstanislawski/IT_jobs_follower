@@ -33,9 +33,9 @@ class NoFluffJobs:  # pylint: disable=R0903
                 session = Session()
                 retries = Retry(total=5, backoff_factor=1)
                 session.mount("https://", HTTPAdapter(max_retries=retries))
-                request = session.get(src["url"] + str(page))
-                request = request.content.decode("utf-8")
-                job_offers = findall(self.__REGEX, request)
+                job_offers = findall(
+                    self.__REGEX, session.get(src["url"] + str(page)).content.decode("utf-8")
+                )
                 if len(job_offers) > 0:
                     content = {src["label"]: []}
                     for job in job_offers:

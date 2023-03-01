@@ -61,9 +61,7 @@ class JustJoinIT:  # pylint: disable=R0903
         session = Session()
         retries = Retry(total=5, backoff_factor=1)
         session.mount("https://", HTTPAdapter(max_retries=retries))
-        request = session.get(self.__API_URL)
-        request = request.content.decode("utf-8")
-        request = loads(request)
+        request = loads(session.get(self.__API_URL).content.decode("utf-8"))
         for src in self.data_sources:
             config = self.__get_single_offer_config(src)
             offers = self.__filter_out_offers(config, request)

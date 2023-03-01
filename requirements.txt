@@ -1,9 +1,5 @@
-pytest
-pylint
-black
 requests
 types-requests
-pre-commit
 pyyaml
 types-PyYAML
-mypy
+
