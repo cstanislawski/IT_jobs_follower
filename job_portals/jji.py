@@ -18,8 +18,8 @@ class JustJoinIT:  # pylint: disable=R0903
 
     def __init__(self) -> None:
         with open(file="config.yaml", mode="r", encoding="utf-8") as config_file:
-            self.jjt_config = load(stream=config_file, Loader=SafeLoader)["jjt"]
-        self.data_sources = self.jjt_config["data_sources"]
+            self.jji_config = load(stream=config_file, Loader=SafeLoader)["jji"]
+        self.data_sources = self.jji_config["data_sources"]
         self.content = []
 
     def load_offers(self) -> None:

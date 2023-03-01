@@ -13,7 +13,7 @@ nfj:
       url: "https://nofluffjobs.com/pl/warszawa/project-manager?criteria=seniority%3Djunior&page="
       category: pm
 
-jjt:
+jji:
   data_sources:
     - label: aws regular devops b2b 20k+
       url: "https://justjoin.it/remote/all/mid/20k?q=AWS@skill;DevOps@category&employmentType=b2b&tab=with-salary"

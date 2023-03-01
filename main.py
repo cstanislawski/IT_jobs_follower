@@ -7,7 +7,7 @@ from os import path
 from typing import List, Dict, Any
 from yaml import load, safe_dump, SafeLoader  # pylint: disable=E0401
 from job_portals.nfj import NoFluffJobs
-from job_portals.jjt import JustJoinIT
+from job_portals.jji import JustJoinIT
 
 # from job_portals.bdj import BullDogJob
 # from job_portals.sj import SolidJobs
@@ -15,9 +15,9 @@ from job_portals.jjt import JustJoinIT
 
 OFFERS_DIRECTORY = "offers/"
 FINAL_FILE = "".join([OFFERS_DIRECTORY, "job_offers.yaml"])
-# JOB_PORTALS = ["nfj","jjt","bdj","sj"]
+# JOB_PORTALS = ["nfj","jji","bdj","sj"]
 # JOB_PORTALS = ["nfj"]
-JOB_PORTALS = ["nfj", "jjt"]
+JOB_PORTALS = ["nfj", "jji"]
 TODAY = str(datetime.now().strftime("%d.%m.%Y"))
 
 
@@ -59,10 +59,10 @@ def load_per_job_portal(jp_name: str) -> str:
             nfj_jobs.load_offers()
             return nfj_jobs.content
 
-        case "jjt":
-            jjt_jobs = JustJoinIT()
-            jjt_jobs.load_offers()
-            return jjt_jobs.content
+        case "jji":
+            jji_jobs = JustJoinIT()
+            jji_jobs.load_offers()
+            return jji_jobs.content
 
         # case "bdj":
         #     bdj_jobs = BullDogJob()
