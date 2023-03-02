@@ -9,9 +9,9 @@ nfj:
       url: "https://nofluffjobs.com/pl/praca-zdalna/devops?criteria=employment%3Db2b%20requirement%3DAWS%20salary%3Epln20000m%20%20seniority%3Dmid&page="
       category: cloud devops
 
-    - label: junior pm warsaw
-      url: "https://nofluffjobs.com/pl/warszawa/project-manager?criteria=seniority%3Djunior&page="
-      category: pm
+    # - label: junior pm warsaw
+    #   url: "https://nofluffjobs.com/pl/warszawa/project-manager?criteria=seniority%3Djunior&page="
+    #   category: pm
 
 jji:
   data_sources:
@@ -19,9 +19,9 @@ jji:
       url: "https://justjoin.it/remote/all/mid/20k?q=AWS@skill;DevOps@category&employmentType=b2b&tab=with-salary"
       category: cloud devops
 
-    - label: junior pm warsaw
-      url: https://justjoin.it/all/all/junior?q=PM@category;Warszawa@city&tab=with-salary
-      category: pm
+    # - label: junior pm warsaw
+    #   url: https://justjoin.it/all/all/junior?q=PM@category;Warszawa@city&tab=with-salary
+    #   category: pm
 
 # bdj:
 #   source_url: "https://bulldogjob.pl/companies/jobs/s/role,devops/skills,AWS,Python/experienceLevel,medium/withSalary,true/salaryBrackets,20000,50000"

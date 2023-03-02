@@ -1,4 +1,240 @@
-02.03.2023:
+04.03.2023:
+  jji:
+  - aws regular devops b2b 20k+:
+    - id: skillspark-system-specialist-with-kubernetes
+      job_name: System Specialist with Kubernetes
+      url: https://justjoin.it/offers/skillspark-system-specialist-with-kubernetes
+      employment_types:
+        b2b: 28800-32000 PLN
+    - id: peopletrust-sp-z-o-o-devops-with-aws-warszawa
+      job_name: DevOps with AWS
+      url: https://justjoin.it/offers/peopletrust-sp-z-o-o-devops-with-aws-warszawa
+      employment_types:
+        b2b: 24840-29040 PLN
+    - id: primaris-cloud-devops-engineer
+      job_name: Cloud DevOps Engineer
+      url: https://justjoin.it/offers/primaris-cloud-devops-engineer
+      employment_types:
+        b2b: 23000-26000 PLN
+    - id: alter-solutions-polska-aws-devops-engineer-warszawa
+      job_name: AWS DevOps Engineer
+      url: https://justjoin.it/offers/alter-solutions-polska-aws-devops-engineer-warszawa
+      employment_types:
+        b2b: 25200-33600 PLN
+    - id: halfing-petersen-devops-engineer
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer
+      employment_types:
+        b2b: 26000-29000 PLN
+    - id: alter-solutions-polska-aws-devops-engineer-ee956ea3-418f-4d6e-b485-e926328dafaa
+      job_name: AWS DevOps Engineer
+      url: https://justjoin.it/offers/alter-solutions-polska-aws-devops-engineer-ee956ea3-418f-4d6e-b485-e926328dafaa
+      employment_types:
+        b2b: 25200-33600 PLN
+    - id: alter-solutions-polska-aws-devops-engineer-276d8f4d-c2ef-4ab0-b771-c31ac94f153a
+      job_name: AWS DevOps Engineer
+      url: https://justjoin.it/offers/alter-solutions-polska-aws-devops-engineer-276d8f4d-c2ef-4ab0-b771-c31ac94f153a
+      employment_types:
+        b2b: 25200-33600 PLN
+    - id: alter-solutions-polska-aws-devops-engineer-d74cc583-81de-48fc-9618-c865a97ed46d
+      job_name: AWS DevOps Engineer
+      url: https://justjoin.it/offers/alter-solutions-polska-aws-devops-engineer-d74cc583-81de-48fc-9618-c865a97ed46d
+      employment_types:
+        b2b: 25200-33600 PLN
+    - id: alter-solutions-polska-aws-devops-engineer-07e7a205-d736-4d65-ac3b-144015772706
+      job_name: AWS DevOps Engineer
+      url: https://justjoin.it/offers/alter-solutions-polska-aws-devops-engineer-07e7a205-d736-4d65-ac3b-144015772706
+      employment_types:
+        b2b: 25200-33600 PLN
+    - id: alter-solutions-polska-aws-devops-engineer-4f7ed86e-2133-4aa8-baa6-ee956aac280e
+      job_name: AWS DevOps Engineer
+      url: https://justjoin.it/offers/alter-solutions-polska-aws-devops-engineer-4f7ed86e-2133-4aa8-baa6-ee956aac280e
+      employment_types:
+        b2b: 25200-33600 PLN
+    - id: halfing-petersen-devops-engineer-bydgoszcz
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-bydgoszcz
+      employment_types:
+        b2b: 26000-29000 PLN
+    - id: halfing-petersen-devops-engineer-lublin
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-lublin
+      employment_types:
+        b2b: 26000-29000 PLN
+    - id: halfing-petersen-devops-engineer-katowice
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-katowice
+      employment_types:
+        b2b: 26000-29000 PLN
+    - id: halfing-petersen-devops-engineer-szczecin
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-szczecin
+      employment_types:
+        b2b: 26000-29000 PLN
+    - id: halfing-petersen-devops-engineer-poznan
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-poznan
+      employment_types:
+        b2b: 26000-29000 PLN
+    - id: halfing-petersen-devops-engineer-gdansk
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-gdansk
+      employment_types:
+        b2b: 26000-29000 PLN
+    - id: halfing-petersen-devops-engineer-lodz
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-lodz
+      employment_types:
+        b2b: 26000-29000 PLN
+    - id: halfing-petersen-devops-engineer-wroclaw
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-wroclaw
+      employment_types:
+        b2b: 26000-29000 PLN
+    - id: halfing-petersen-devops-engineer-krakow
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-krakow
+      employment_types:
+        b2b: 26000-29000 PLN
+    - id: peopletrust-sp-z-o-o-devops-with-aws-krakow
+      job_name: DevOps with AWS
+      url: https://justjoin.it/offers/peopletrust-sp-z-o-o-devops-with-aws-krakow
+      employment_types:
+        b2b: 24840-29040 PLN
+    - id: peopletrust-sp-z-o-o-devops-with-aws-1598359f-fda0-493e-adb9-391b51ede1ec
+      job_name: DevOps with AWS
+      url: https://justjoin.it/offers/peopletrust-sp-z-o-o-devops-with-aws-1598359f-fda0-493e-adb9-391b51ede1ec
+      employment_types:
+        b2b: 24840-29040 PLN
+  nfj:
+  - aws regular devops b2b 20k+:
+    - id: wsoczbec
+      job_name: devops-engineer-harman-connected-services-remote-wsoczbec
+      url: https://nofluffjobs.com/pl/job/devops-engineer-harman-connected-services-remote-wsoczbec
+      employment_types:
+        b2b: 17000-26600 PLN
+        permanent: 12500-18000 PLN
+    - id: hheajmva
+      job_name: remote-devops-specialist-moonfox-creative-agency-hheajmva
+      url: https://nofluffjobs.com/pl/job/remote-devops-specialist-moonfox-creative-agency-hheajmva
+      employment_types:
+        b2b: 13440-20160 PLN
+        permanent: NOT_FOUND
+    - id: rg1t4lvq
+      job_name: senior-aws-devops-engineer-cloudbest-remote-rg1t4lvq
+      url: https://nofluffjobs.com/pl/job/senior-aws-devops-engineer-cloudbest-remote-rg1t4lvq
+      employment_types:
+        b2b: 25000-35000 PLN
+        permanent: NOT_FOUND
+    - id: 5rlz8idl
+      job_name: devops-engineer-avenga-remote-5rlz8idl
+      url: https://nofluffjobs.com/pl/job/devops-engineer-avenga-remote-5rlz8idl
+      employment_types:
+        b2b: 25200-30240 PLN
+        permanent: 21000-25250 PLN
+    - id: b4yut0rb
+      job_name: aws-architect-product-owner-proalpha-group-remote-b4yut0rb
+      url: https://nofluffjobs.com/pl/job/aws-architect-product-owner-proalpha-group-remote-b4yut0rb
+      employment_types:
+        b2b: 25000-27000 PLN
+        permanent: 20000-25000 PLN
+    - id: xnu7dzde
+      job_name: devops-engineer-cognitran-remote-xnu7dzde
+      url: https://nofluffjobs.com/pl/job/devops-engineer-cognitran-remote-xnu7dzde
+      employment_types:
+        b2b: 21000-33600 PLN
+        permanent: 15000-25000 PLN
+    - id: 8updyocz
+      job_name: devops-engineer-avenga-remote-8updyocz
+      url: https://nofluffjobs.com/pl/job/devops-engineer-avenga-remote-8updyocz
+      employment_types:
+        b2b: 25200-30240 PLN
+        permanent: 21000-25250 PLN
+    - id: zpmbvfju
+      job_name: mid-senior-devops-engineer-link-group-remote-zpmbvfju
+      url: https://nofluffjobs.com/pl/job/mid-senior-devops-engineer-link-group-remote-zpmbvfju
+      employment_types:
+        b2b: 25000-35000 PLN
+        permanent: NOT_FOUND
+    - id: alcuncxe
+      job_name: aws-cloud-engieer-iteo-remote-alcuncxe
+      url: https://nofluffjobs.com/pl/job/aws-cloud-engieer-iteo-remote-alcuncxe
+      employment_types:
+        b2b: 16000-27000 PLN
+        permanent: 13000-22000 PLN
+    - id: tzgauxfk
+      job_name: devops-engineer-sopra-steria-apps-services-remote-tzgauxfk
+      url: https://nofluffjobs.com/pl/job/devops-engineer-sopra-steria-apps-services-remote-tzgauxfk
+      employment_types:
+        b2b: 16000-24000 PLN
+        permanent: 12000-17000 PLN
+    - id: thzrxf2h
+      job_name: devops-engineer-iceo-venture-builder-remote-thzrxf2h
+      url: https://nofluffjobs.com/pl/job/devops-engineer-iceo-venture-builder-remote-thzrxf2h
+      employment_types:
+        b2b: 15000-25000 PLN
+        permanent: NOT_FOUND
+    - id: 03p78b8y
+      job_name: remote-devops-engineer-squareone-03p78b8y
+      url: https://nofluffjobs.com/pl/job/remote-devops-engineer-squareone-03p78b8y
+      employment_types:
+        b2b: 23520-36960 PLN
+        permanent: NOT_FOUND
+    - id: lirw9zfr
+      job_name: devops-engineer-ynd-technologies-remote-lirw9zfr
+      url: https://nofluffjobs.com/pl/job/devops-engineer-ynd-technologies-remote-lirw9zfr
+      employment_types:
+        b2b: 16000-24000 PLN
+        permanent: NOT_FOUND
+    - id: kedogmow
+      job_name: devops-middle-senior-koia-remote-kedogmow
+      url: https://nofluffjobs.com/pl/job/devops-middle-senior-koia-remote-kedogmow
+      employment_types:
+        b2b: 18818-30579 EUR
+        permanent: NOT_FOUND
+    - id: 2fxhwyir
+      job_name: remote-devops-cloud-engineer-onwelo-2fxhwyir
+      url: https://nofluffjobs.com/pl/job/remote-devops-cloud-engineer-onwelo-2fxhwyir
+      employment_types:
+        b2b: 18480-25200 PLN
+        permanent: NOT_FOUND
+    - id: zsjh6oep
+      job_name: mid-senior-devops-engineer-precisely-remote-zsjh6oep
+      url: https://nofluffjobs.com/pl/job/mid-senior-devops-engineer-precisely-remote-zsjh6oep
+      employment_types:
+        b2b: 20000-30000 PLN
+        permanent: 20000-30000 PLN
+    - id: zggihxzp
+      job_name: devops-engineer-kz-inspire-remote-zggihxzp
+      url: https://nofluffjobs.com/pl/job/devops-engineer-kz-inspire-remote-zggihxzp
+      employment_types:
+        b2b: 15000-27000 PLN
+        permanent: 15000-27000 PLN
+    - id: fj2mp2uz
+      job_name: devops-engineer-remote-coro-fj2mp2uz
+      url: https://nofluffjobs.com/pl/job/devops-engineer-remote-coro-fj2mp2uz
+      employment_types:
+        b2b: 22170-28821 USD
+        permanent: 22170-28821 USD
+    - id: f4wtsq7w
+      job_name: devops-data-automation-engineer-architec-fujitsu-technology-solutions-remote-f4wtsq7w
+      url: https://nofluffjobs.com/pl/job/devops-data-automation-engineer-architec-fujitsu-technology-solutions-remote-f4wtsq7w
+      employment_types:
+        b2b: 25200-33600 PLN
+        permanent: 9700-19400 PLN
+    - id: eosdta9a
+      job_name: devops-engineer-100-remote-avenga-eosdta9a
+      url: https://nofluffjobs.com/pl/job/devops-engineer-100-remote-avenga-eosdta9a
+      employment_types:
+        b2b: 21840-25200 PLN
+        permanent: NOT_FOUND
+    - id: 8xwpfyti
+      job_name: remote-devops-engineer-aws-azure-link-group-8xwpfyti
+      url: https://nofluffjobs.com/pl/job/remote-devops-engineer-aws-azure-link-group-8xwpfyti
+      employment_types:
+        b2b: 22000-27000 PLN
+        permanent: 22000-25000 PLN
+03.03.2023:
   jji:
   - aws regular devops b2b 20k+:
     - id: primaris-cloud-devops-engineer
@@ -55,6 +291,227 @@
     - id: halfing-petersen-devops-engineer-wroclaw
       job_name: DevOps Engineer
       url: https://justjoin.it/offers/halfing-petersen-devops-engineer-wroclaw
+    - id: peopletrust-sp-z-o-o-devops-with-aws-krakow
+      job_name: DevOps with AWS
+      url: https://justjoin.it/offers/peopletrust-sp-z-o-o-devops-with-aws-krakow
+    - id: peopletrust-sp-z-o-o-devops-with-aws-1598359f-fda0-493e-adb9-391b51ede1ec
+      job_name: DevOps with AWS
+      url: https://justjoin.it/offers/peopletrust-sp-z-o-o-devops-with-aws-1598359f-fda0-493e-adb9-391b51ede1ec
+  - junior pm warsaw:
+    - id: primotly-junior-project-business-manager
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager
+    - id: sente-junior-project-manager-wroclaw
+      job_name: Junior Project Manager
+      url: https://justjoin.it/offers/sente-junior-project-manager-wroclaw
+    - id: acaisoft-project-delivery-manager
+      job_name: Project / Delivery Manager
+      url: https://justjoin.it/offers/acaisoft-project-delivery-manager
+    - id: itds-junior-it-project-manager-warszawa
+      job_name: Junior IT Project Manager
+      url: https://justjoin.it/offers/itds-junior-it-project-manager-warszawa
+    - id: pharmapartner-program-kariera-staz-stanowisko-ds-projektow
+      job_name: "Sta\u017C Stanowisko ds. projekt\xF3w"
+      url: https://justjoin.it/offers/pharmapartner-program-kariera-staz-stanowisko-ds-projektow
+    - id: program-kariera-staz-w-firmie-zabka-staz-w-dziale-pmo
+      job_name: "Sta\u017C w Dziale PMO"
+      url: https://justjoin.it/offers/program-kariera-staz-w-firmie-zabka-staz-w-dziale-pmo
+    - id: primaris-project-manager-assistant
+      job_name: Project Manager Assistant
+      url: https://justjoin.it/offers/primaris-project-manager-assistant
+    - id: sky-gate-junior-project-manager
+      job_name: Junior Project Manager
+      url: https://justjoin.it/offers/sky-gate-junior-project-manager
+    - id: primotly-junior-project-business-manager-krakow
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-krakow
+    - id: primotly-junior-project-business-manager-wroclaw
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-wroclaw
+    - id: primotly-junior-project-business-manager-gdansk
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-gdansk
+    - id: primotly-junior-project-business-manager-poznan
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-poznan
+    - id: primotly-junior-project-business-manager-lodz
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-lodz
+    - id: primotly-junior-project-business-manager-bydgoszcz
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-bydgoszcz
+    - id: primotly-junior-project-business-manager-szczecin
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-szczecin
+    - id: primotly-junior-project-business-manager-bialystok
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-bialystok
+    - id: primotly-junior-project-business-manager-lublin
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-lublin
+    - id: primotly-junior-project-business-manager-rzeszow
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-rzeszow
+    - id: primotly-junior-project-business-manager-katowice
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-katowice
+    - id: primotly-junior-project-business-manager-radom
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-radom
+    - id: primotly-junior-project-business-manager-czestochowa
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-czestochowa
+    - id: primotly-junior-project-business-manager-kielce
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-kielce
+    - id: primotly-junior-project-business-manager-olsztyn
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-olsztyn
+    - id: primotly-junior-project-business-manager-rybnik
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-rybnik
+    - id: primotly-junior-project-business-manager-zielona-gora
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-zielona-gora
+    - id: primotly-junior-project-business-manager-bielsko-biala
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-bielsko-biala
+  nfj:
+  - aws regular devops b2b 20k+:
+    - id: rg1t4lvq
+      job_name: senior-aws-devops-engineer-cloudbest-remote-rg1t4lvq
+      url: https://nofluffjobs.com/pl/job/senior-aws-devops-engineer-cloudbest-remote-rg1t4lvq
+    - id: 5rlz8idl
+      job_name: devops-engineer-avenga-remote-5rlz8idl
+      url: https://nofluffjobs.com/pl/job/devops-engineer-avenga-remote-5rlz8idl
+    - id: b4yut0rb
+      job_name: aws-architect-product-owner-proalpha-group-remote-b4yut0rb
+      url: https://nofluffjobs.com/pl/job/aws-architect-product-owner-proalpha-group-remote-b4yut0rb
+    - id: xnu7dzde
+      job_name: devops-engineer-cognitran-remote-xnu7dzde
+      url: https://nofluffjobs.com/pl/job/devops-engineer-cognitran-remote-xnu7dzde
+    - id: 8updyocz
+      job_name: devops-engineer-avenga-remote-8updyocz
+      url: https://nofluffjobs.com/pl/job/devops-engineer-avenga-remote-8updyocz
+    - id: zpmbvfju
+      job_name: mid-senior-devops-engineer-link-group-remote-zpmbvfju
+      url: https://nofluffjobs.com/pl/job/mid-senior-devops-engineer-link-group-remote-zpmbvfju
+    - id: alcuncxe
+      job_name: aws-cloud-engieer-iteo-remote-alcuncxe
+      url: https://nofluffjobs.com/pl/job/aws-cloud-engieer-iteo-remote-alcuncxe
+    - id: hheajmva
+      job_name: remote-devops-specialist-moonfox-creative-agency-hheajmva
+      url: https://nofluffjobs.com/pl/job/remote-devops-specialist-moonfox-creative-agency-hheajmva
+    - id: tzgauxfk
+      job_name: devops-engineer-sopra-steria-apps-services-remote-tzgauxfk
+      url: https://nofluffjobs.com/pl/job/devops-engineer-sopra-steria-apps-services-remote-tzgauxfk
+    - id: lirw9zfr
+      job_name: devops-engineer-ynd-technologies-remote-lirw9zfr
+      url: https://nofluffjobs.com/pl/job/devops-engineer-ynd-technologies-remote-lirw9zfr
+    - id: kedogmow
+      job_name: devops-middle-senior-koia-remote-kedogmow
+      url: https://nofluffjobs.com/pl/job/devops-middle-senior-koia-remote-kedogmow
+    - id: 2fxhwyir
+      job_name: remote-devops-cloud-engineer-onwelo-2fxhwyir
+      url: https://nofluffjobs.com/pl/job/remote-devops-cloud-engineer-onwelo-2fxhwyir
+    - id: zsjh6oep
+      job_name: mid-senior-devops-engineer-precisely-remote-zsjh6oep
+      url: https://nofluffjobs.com/pl/job/mid-senior-devops-engineer-precisely-remote-zsjh6oep
+    - id: zggihxzp
+      job_name: devops-engineer-kz-inspire-remote-zggihxzp
+      url: https://nofluffjobs.com/pl/job/devops-engineer-kz-inspire-remote-zggihxzp
+    - id: fj2mp2uz
+      job_name: devops-engineer-remote-coro-fj2mp2uz
+      url: https://nofluffjobs.com/pl/job/devops-engineer-remote-coro-fj2mp2uz
+    - id: f4wtsq7w
+      job_name: devops-data-automation-engineer-architec-fujitsu-technology-solutions-remote-f4wtsq7w
+      url: https://nofluffjobs.com/pl/job/devops-data-automation-engineer-architec-fujitsu-technology-solutions-remote-f4wtsq7w
+    - id: eosdta9a
+      job_name: devops-engineer-100-remote-avenga-eosdta9a
+      url: https://nofluffjobs.com/pl/job/devops-engineer-100-remote-avenga-eosdta9a
+    - id: wsoczbec
+      job_name: devops-engineer-with-kubernetes-harman-connected-services-remote-wsoczbec
+      url: https://nofluffjobs.com/pl/job/devops-engineer-with-kubernetes-harman-connected-services-remote-wsoczbec
+    - id: 8xwpfyti
+      job_name: remote-devops-engineer-aws-azure-link-group-8xwpfyti
+      url: https://nofluffjobs.com/pl/job/remote-devops-engineer-aws-azure-link-group-8xwpfyti
+    - id: 03p78b8y
+      job_name: remote-devops-engineer-squareone-03p78b8y
+      url: https://nofluffjobs.com/pl/job/remote-devops-engineer-squareone-03p78b8y
+  - aws regular devops b2b 20k+:
+    - id: thzrxf2h
+      job_name: devops-engineer-iceo-venture-builder-remote-thzrxf2h
+      url: https://nofluffjobs.com/pl/job/devops-engineer-iceo-venture-builder-remote-thzrxf2h
+  - junior pm warsaw:
+    - id: nzawzy66
+      job_name: remote-junior-project-manager-link-group-warszawa-nzawzy66
+      url: https://nofluffjobs.com/pl/job/remote-junior-project-manager-link-group-warszawa-nzawzy66
+    - id: ykidhgxu
+      job_name: project-delivery-manager-acaisoft-poland-warszawa-ykidhgxu
+      url: https://nofluffjobs.com/pl/job/project-delivery-manager-acaisoft-poland-warszawa-ykidhgxu
+    - id: ckrvw79t
+      job_name: junior-it-project-manager-with-german-milo-solutions-ou-remote-ckrvw79t
+      url: https://nofluffjobs.com/pl/job/junior-it-project-manager-with-german-milo-solutions-ou-remote-ckrvw79t
+    - id: 02oja8g2
+      job_name: team-planner-assistant-pmo-ework-group-remote-02oja8g2
+      url: https://nofluffjobs.com/pl/job/team-planner-assistant-pmo-ework-group-remote-02oja8g2
+02.03.2023:
+  jji:
+  - aws regular devops b2b 20k+:
+    - id: primaris-cloud-devops-engineer
+      job_name: Cloud DevOps Engineer
+      url: https://justjoin.it/offers/primaris-cloud-devops-engineer
+    - id: alter-solutions-polska-aws-devops-engineer-warszawa
+      job_name: AWS DevOps Engineer
+      url: https://justjoin.it/offers/alter-solutions-polska-aws-devops-engineer-warszawa
+    - id: halfing-petersen-devops-engineer
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer
+    - id: peopletrust-sp-z-o-o-devops-with-aws-warszawa
+      job_name: DevOps with AWS
+      url: https://justjoin.it/offers/peopletrust-sp-z-o-o-devops-with-aws-warszawa
+    - id: alter-solutions-polska-aws-devops-engineer-ee956ea3-418f-4d6e-b485-e926328dafaa
+      job_name: AWS DevOps Engineer
+      url: https://justjoin.it/offers/alter-solutions-polska-aws-devops-engineer-ee956ea3-418f-4d6e-b485-e926328dafaa
+    - id: alter-solutions-polska-aws-devops-engineer-276d8f4d-c2ef-4ab0-b771-c31ac94f153a
+      job_name: AWS DevOps Engineer
+      url: https://justjoin.it/offers/alter-solutions-polska-aws-devops-engineer-276d8f4d-c2ef-4ab0-b771-c31ac94f153a
+    - id: alter-solutions-polska-aws-devops-engineer-d74cc583-81de-48fc-9618-c865a97ed46d
+      job_name: AWS DevOps Engineer
+      url: https://justjoin.it/offers/alter-solutions-polska-aws-devops-engineer-d74cc583-81de-48fc-9618-c865a97ed46d
+    - id: alter-solutions-polska-aws-devops-engineer-07e7a205-d736-4d65-ac3b-144015772706
+      job_name: AWS DevOps Engineer
+      url: https://justjoin.it/offers/alter-solutions-polska-aws-devops-engineer-07e7a205-d736-4d65-ac3b-144015772706
+    - id: alter-solutions-polska-aws-devops-engineer-4f7ed86e-2133-4aa8-baa6-ee956aac280e
+      job_name: AWS DevOps Engineer
+      url: https://justjoin.it/offers/alter-solutions-polska-aws-devops-engineer-4f7ed86e-2133-4aa8-baa6-ee956aac280e
+    - id: halfing-petersen-devops-engineer-krakow
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-krakow
+    - id: halfing-petersen-devops-engineer-katowice
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-katowice
+    - id: halfing-petersen-devops-engineer-szczecin
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-szczecin
+    - id: halfing-petersen-devops-engineer-bydgoszcz
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-bydgoszcz
+    - id: halfing-petersen-devops-engineer-poznan
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-poznan
+    - id: halfing-petersen-devops-engineer-lublin
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-lublin
+    - id: halfing-petersen-devops-engineer-gdansk
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-gdansk
+    - id: halfing-petersen-devops-engineer-lodz
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-lodz
+    - id: halfing-petersen-devops-engineer-wroclaw
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-wroclaw
     - id: peopletrust-sp-z-o-o-devops-with-aws-1598359f-fda0-493e-adb9-391b51ede1ec
       job_name: DevOps with AWS
       url: https://justjoin.it/offers/peopletrust-sp-z-o-o-devops-with-aws-1598359f-fda0-493e-adb9-391b51ede1ec
@@ -86,60 +543,60 @@
     - id: sky-gate-junior-project-manager
       job_name: Junior Project Manager
       url: https://justjoin.it/offers/sky-gate-junior-project-manager
-    - id: primotly-junior-project-business-manager-bielsko-biala
-      job_name: Junior Project Business Manager
-      url: https://justjoin.it/offers/primotly-junior-project-business-manager-bielsko-biala
-    - id: primotly-junior-project-business-manager-zielona-gora
-      job_name: Junior Project Business Manager
-      url: https://justjoin.it/offers/primotly-junior-project-business-manager-zielona-gora
-    - id: primotly-junior-project-business-manager-rybnik
-      job_name: Junior Project Business Manager
-      url: https://justjoin.it/offers/primotly-junior-project-business-manager-rybnik
-    - id: primotly-junior-project-business-manager-olsztyn
-      job_name: Junior Project Business Manager
-      url: https://justjoin.it/offers/primotly-junior-project-business-manager-olsztyn
-    - id: primotly-junior-project-business-manager-kielce
-      job_name: Junior Project Business Manager
-      url: https://justjoin.it/offers/primotly-junior-project-business-manager-kielce
-    - id: primotly-junior-project-business-manager-czestochowa
-      job_name: Junior Project Business Manager
-      url: https://justjoin.it/offers/primotly-junior-project-business-manager-czestochowa
-    - id: primotly-junior-project-business-manager-radom
-      job_name: Junior Project Business Manager
-      url: https://justjoin.it/offers/primotly-junior-project-business-manager-radom
-    - id: primotly-junior-project-business-manager-katowice
-      job_name: Junior Project Business Manager
-      url: https://justjoin.it/offers/primotly-junior-project-business-manager-katowice
-    - id: primotly-junior-project-business-manager-rzeszow
-      job_name: Junior Project Business Manager
-      url: https://justjoin.it/offers/primotly-junior-project-business-manager-rzeszow
-    - id: primotly-junior-project-business-manager-lublin
-      job_name: Junior Project Business Manager
-      url: https://justjoin.it/offers/primotly-junior-project-business-manager-lublin
-    - id: primotly-junior-project-business-manager-bialystok
-      job_name: Junior Project Business Manager
-      url: https://justjoin.it/offers/primotly-junior-project-business-manager-bialystok
-    - id: primotly-junior-project-business-manager-szczecin
-      job_name: Junior Project Business Manager
-      url: https://justjoin.it/offers/primotly-junior-project-business-manager-szczecin
-    - id: primotly-junior-project-business-manager-bydgoszcz
-      job_name: Junior Project Business Manager
-      url: https://justjoin.it/offers/primotly-junior-project-business-manager-bydgoszcz
-    - id: primotly-junior-project-business-manager-lodz
-      job_name: Junior Project Business Manager
-      url: https://justjoin.it/offers/primotly-junior-project-business-manager-lodz
-    - id: primotly-junior-project-business-manager-poznan
-      job_name: Junior Project Business Manager
-      url: https://justjoin.it/offers/primotly-junior-project-business-manager-poznan
-    - id: primotly-junior-project-business-manager-gdansk
-      job_name: Junior Project Business Manager
-      url: https://justjoin.it/offers/primotly-junior-project-business-manager-gdansk
-    - id: primotly-junior-project-business-manager-wroclaw
-      job_name: Junior Project Business Manager
-      url: https://justjoin.it/offers/primotly-junior-project-business-manager-wroclaw
     - id: primotly-junior-project-business-manager-krakow
       job_name: Junior Project Business Manager
       url: https://justjoin.it/offers/primotly-junior-project-business-manager-krakow
+    - id: primotly-junior-project-business-manager-wroclaw
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-wroclaw
+    - id: primotly-junior-project-business-manager-gdansk
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-gdansk
+    - id: primotly-junior-project-business-manager-poznan
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-poznan
+    - id: primotly-junior-project-business-manager-lodz
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-lodz
+    - id: primotly-junior-project-business-manager-bydgoszcz
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-bydgoszcz
+    - id: primotly-junior-project-business-manager-szczecin
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-szczecin
+    - id: primotly-junior-project-business-manager-bialystok
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-bialystok
+    - id: primotly-junior-project-business-manager-lublin
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-lublin
+    - id: primotly-junior-project-business-manager-rzeszow
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-rzeszow
+    - id: primotly-junior-project-business-manager-katowice
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-katowice
+    - id: primotly-junior-project-business-manager-radom
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-radom
+    - id: primotly-junior-project-business-manager-czestochowa
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-czestochowa
+    - id: primotly-junior-project-business-manager-kielce
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-kielce
+    - id: primotly-junior-project-business-manager-olsztyn
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-olsztyn
+    - id: primotly-junior-project-business-manager-rybnik
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-rybnik
+    - id: primotly-junior-project-business-manager-zielona-gora
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-zielona-gora
+    - id: primotly-junior-project-business-manager-bielsko-biala
+      job_name: Junior Project Business Manager
+      url: https://justjoin.it/offers/primotly-junior-project-business-manager-bielsko-biala
   nfj:
   - aws regular devops b2b 20k+:
     - id: rg1t4lvq

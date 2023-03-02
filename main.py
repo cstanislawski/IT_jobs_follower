@@ -19,8 +19,7 @@ from job_portals.jji import JustJoinIT
 OFFERS_DIRECTORY = "offers/"
 FINAL_FILE = "".join([OFFERS_DIRECTORY, "job_offers.yaml"])
 # JOB_PORTALS = ["nfj","jji","bdj","sj"]
-# JOB_PORTALS = ["nfj"]
-JOB_PORTALS = ["nfj", "jji"]
+JOB_PORTALS = ["jji", "nfj"]
 DATEFORMAT = "%d.%m.%Y"
 TODAY = str(datetime.now().strftime(DATEFORMAT))
 
