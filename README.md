@@ -21,7 +21,6 @@ Add label and url with filters to [offers/job_offers.yaml](offers/job_offers.yam
 
   - SolidJobs
   - BulldogJob
-- List days in order of newest -> oldest
 - List salary & sort by it in [job_offers.yaml](offers/job_offers.yaml)
 - [JJI-only] If offer is present for multiple cities, then link the main offer with cities listed below
 - Provide link to company's glassdoor / other sites
@@ -33,8 +32,6 @@ Add label and url with filters to [offers/job_offers.yaml](offers/job_offers.yam
 - Find duplicate offers (select best ones if they differ?)
 
 
-#### DONE:
-
-NoFluffJobs - full support for all offers
-
-JustJoinIT - full support for remote offers
+- ~~List days in order of newest -> oldest~~ - done 03.02.2023
+- ~~JustJoinIT - full support for remote offers~~ - done 26.02.2023
+- ~~NoFluffJobs - full support for all offers~~ - done 25.02.2023
