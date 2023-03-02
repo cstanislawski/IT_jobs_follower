@@ -5,9 +5,12 @@ Module for tracking offers on sites specified in config.yaml.
 from datetime import datetime
 from os import path
 from typing import List, Dict, Any
-from yaml import load, safe_dump, SafeLoader  # pylint: disable=E0401
+from collections import OrderedDict
+from sys import version_info
+from yaml import load, safe_dump, add_representer, SafeLoader, SafeDumper  # pylint: disable=E0401
 from job_portals.nfj import NoFluffJobs
 from job_portals.jji import JustJoinIT
+
 
 # from job_portals.bdj import BullDogJob
 # from job_portals.sj import SolidJobs
@@ -18,7 +21,8 @@ FINAL_FILE = "".join([OFFERS_DIRECTORY, "job_offers.yaml"])
 # JOB_PORTALS = ["nfj","jji","bdj","sj"]
 # JOB_PORTALS = ["nfj"]
 JOB_PORTALS = ["nfj", "jji"]
-TODAY = str(datetime.now().strftime("%d.%m.%Y"))
+DATEFORMAT = "%d.%m.%Y"
+TODAY = str(datetime.now().strftime(DATEFORMAT))
 
 
 def load_yaml(filepath: str) -> List[Dict[Any, Any]]:
@@ -33,8 +37,16 @@ def save_yaml(filepath: str, content: Dict[Any, Any]) -> None:
     """
     Saves content as yaml, e.g.: saving new offers to offers/job_offers.yaml
     """
+    # Enable PyYAML support for OrderedDict
+    add_representer(
+        OrderedDict,
+        lambda dumper, data: dumper.represent_dict(
+            getattr(data, "viewitems" if version_info < (3,) else "items")()
+        ),
+        Dumper=SafeDumper,
+    )
     with open(file=filepath, mode="w", encoding="utf-8") as new_file:
-        safe_dump(data=content, stream=new_file)
+        safe_dump(data=content, stream=new_file, default_flow_style=False)
 
 
 def check_if_f_exists_else_empty_dict(filepath: str) -> List[Dict[Any, Any]]:
@@ -77,7 +89,7 @@ def load_per_job_portal(jp_name: str) -> str:
     raise TypeError
 
 
-def prepare_dict(my_dict: dict, date: str) -> dict:
+def prepare_dict(my_dict: dict, date: str) -> Dict:
     """
     Initialize dictionary with today's date
     """
@@ -85,6 +97,17 @@ def prepare_dict(my_dict: dict, date: str) -> dict:
         my_dict[date] = {}
 
     return my_dict
+
+
+def sort_by_date(dict_of_offers_by_day: List[Dict[str, str]]) -> List[Dict[str, str]]:
+    """
+    Sorts the provided dictionary into OrderedDict by DATEFORMAT. Sorts into newest -> oldest.
+    """
+    return OrderedDict(
+        reversed(
+            sorted(dict_of_offers_by_day.items(), key=lambda x: datetime.strptime(x[0], DATEFORMAT))
+        )
+    )
 
 
 if __name__ == "__main__":
@@ -98,4 +121,5 @@ if __name__ == "__main__":
             print(f"Did not receive any content from {job_portal}.")
         print(f"Done searching {job_portal}.")
 
+    final_dict = sort_by_date(dict_of_offers_by_day=final_dict)
     save_yaml(FINAL_FILE, final_dict)
