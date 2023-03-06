@@ -4,6 +4,7 @@ Module for handling NoFluffJobs (https://nofluffjobs.com/pl) offers tracker.
 from time import sleep
 from re import findall
 from collections import OrderedDict
+from statistics import mean
 from requests import Session  # pylint: disable=E0401
 from requests.adapters import HTTPAdapter, Retry  # pylint: disable=E0401
 from yaml import load, SafeLoader  # pylint: disable=E0401
@@ -35,7 +36,7 @@ class NoFluffJobs:  # pylint: disable=R0903
         retries = 5
         for src in self.data_sources:
             page = 1
-            content = {src["label"]: []}
+            content = {"name": src["label"], "offers": []}
             while True:
                 session = Session()
                 retries = Retry(total=5, backoff_factor=1)
@@ -45,7 +46,8 @@ class NoFluffJobs:  # pylint: disable=R0903
                 )
                 if len(job_offers) > 0:
                     for offer in job_offers:
-                        content[src["label"]].append(
+                        employment_info, averages = self.__find_employment_info(offer)
+                        content["offers"].append(
                             OrderedDict(
                                 [
                                     (
@@ -56,14 +58,15 @@ class NoFluffJobs:  # pylint: disable=R0903
                                     ),
                                     ("job_name", findall(r"([\d\w]+(\-[\d\w]+)+)", offer)[0][0]),
                                     ("url", self.__BASE_URL + offer),
-                                    ("employment_types", self.__find_employment_info(offer)),
+                                    ("employment_types", employment_info),
+                                    ("avg_salary", averages),
                                 ]
                             )
                         )
                     page += 1
                     sleep(0.2)
                 else:
-                    if content != {src["label"]: []}:
+                    if content["offers"]:
                         self.content.append(content)
                     break
 
@@ -73,16 +76,19 @@ class NoFluffJobs:  # pylint: disable=R0903
         session.mount("https://", HTTPAdapter(max_retries=retries))
         offer_page = session.get(self.__BASE_URL + offer).content.decode("utf-8").replace("&q;", "")
 
-        permanent = self.__find_salary(self.__OFFER_TYPE_PERMANENT_REGEX, offer_page)
-        b2b = self.__find_salary(self.__OFFER_TYPE_B2B_REGEX, offer_page)
+        permanent, permanent_avg = self.__find_salary(self.__OFFER_TYPE_PERMANENT_REGEX, offer_page)
+        b2b, b2b_avg = self.__find_salary(self.__OFFER_TYPE_B2B_REGEX, offer_page)
 
         employment_types = OrderedDict()
+        avgs = OrderedDict()
         if b2b:
             employment_types["b2b"] = b2b
+            avgs["b2b"] = b2b_avg
         if permanent:
             employment_types["permanent"] = permanent
+            avgs["permanent"] = permanent_avg
 
-        return employment_types
+        return employment_types, avgs
 
     def __find_salary(self, regex: str, page_content: str):
         all_salary_info = findall(regex, page_content)
@@ -94,10 +100,12 @@ class NoFluffJobs:  # pylint: disable=R0903
             if period != "Month":
                 # If provided salary is not a month, then it's annual
                 # If so, divide the provided amount by num of months
+                avg_salary = mean(int(float(x) / 12) for x in salary_range.split(","))
                 salary_range = "-".join(
                     ((str(int(float(x) / 12)) for x in salary_range.split(",")))
                 )
             else:
+                avg_salary = mean(int(x) for x in salary_range.split(","))
                 salary_range = "-".join(salary_range.split(","))
-            return f"{salary_range} {currency}"
-        return "NOT_FOUND"
+            return f"{salary_range} {currency}", avg_salary
+        return None, None

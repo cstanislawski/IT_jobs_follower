@@ -22,6 +22,7 @@ FINAL_FILE = "".join([OFFERS_DIRECTORY, "job_offers.yaml"])
 JOB_PORTALS = ["jji", "nfj"]
 DATEFORMAT = "%d.%m.%Y"
 TODAY = str(datetime.now().strftime(DATEFORMAT))
+LISTABLE_ATTRIBUTES = ["id", "job_name", "url", "employment_types"]
 
 
 def load_yaml(filepath: str) -> List[Dict[Any, Any]]:
@@ -109,13 +110,50 @@ def sort_by_date(dict_of_offers_by_day: List[Dict[str, str]]) -> List[Dict[str, 
     )
 
 
+def offers_sorted_by_salary(todays_list_of_dict_of_offers: List[Dict]):
+    """
+    Sorts received JP_CONTENT by avg_salary key, by b2b if b2b is present,\n
+    if not, by permanent.
+    """
+    temporary = []
+    for single_label in todays_list_of_dict_of_offers:
+        temporary.append(
+            {
+                "name": single_label["name"],
+                "offers": sorted(
+                    single_label["offers"],
+                    key=lambda d: d["avg_salary"]["b2b"]
+                    if d["avg_salary"]["b2b"]
+                    else d["avg_salary"]["permanent"],
+                    reverse=True,
+                ),
+            }
+        )
+    return temporary
+
+
+def pop_unwanted_keys(todays_list_of_dict_of_offers: List[Dict]):
+    """
+    Pops all the keys not present in LISTABLE_ATTRIBUTES
+    """
+    for single_label in todays_list_of_dict_of_offers:
+        for key in single_label["offers"][0]:
+            if key not in LISTABLE_ATTRIBUTES:
+                for single_offer in single_label["offers"]:
+                    single_offer.pop(key)
+    return todays_list_of_dict_of_offers
+
+
 if __name__ == "__main__":
     final_dict = check_if_f_exists_else_empty_dict(FINAL_FILE)
     final_dict = prepare_dict(my_dict=final_dict, date=TODAY)
     for job_portal in JOB_PORTALS:
         JP_CONTENT = load_per_job_portal(jp_name=job_portal)
+
         if JP_CONTENT is not None:
-            final_dict[TODAY][job_portal] = JP_CONTENT
+            temp_list = offers_sorted_by_salary(JP_CONTENT)
+            temp_list = pop_unwanted_keys(temp_list)
+            final_dict[TODAY][job_portal] = temp_list
         else:
             print(f"Did not receive any content from {job_portal}.")
         print(f"Done searching {job_portal}.")

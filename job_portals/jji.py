@@ -4,6 +4,7 @@ Module for handling JustJoinIT (https://justjoin.it/?tab=with-salary) offers tra
 from re import findall  # pylint: disable=W0611
 from json import loads
 from collections import OrderedDict
+from statistics import mean
 from requests import Session  # pylint: disable=E0401
 from requests.adapters import HTTPAdapter, Retry  # pylint: disable=E0401
 from yaml import load, SafeLoader  # pylint: disable=E0401
@@ -68,17 +69,19 @@ class JustJoinIT:  # pylint: disable=R0903
             offers = self.__filter_out_offers(config, request)
             self.content.append(
                 {
-                    src["label"]: [
+                    "name": src["label"],
+                    "offers": [
                         OrderedDict(
                             [
-                                ("id", offer["id"]),
-                                ("job_name", offer["title"]),
-                                ("url", self.__OFFERS_URL + offer["id"]),
-                                ("employment_types", offer["employment_types"]),
+                                ("id", offer[0]["id"]),
+                                ("job_name", offer[0]["title"]),
+                                ("url", self.__OFFERS_URL + offer[0]["id"]),
+                                ("employment_types", offer[0]["employment_types"]),
+                                ("avg_salary", offer[1]),
                             ]
                         )
                         for offer in offers
-                    ]
+                    ],
                 }
             )
 
@@ -168,6 +171,12 @@ class JustJoinIT:  # pylint: disable=R0903
             #     valid = False
 
             if valid:
+                avgs = {}
+                for single_type in single_offer["employment_types"]:
+                    if single_type["salary"] is not None:
+                        avgs[single_type["type"]] = mean(
+                            (int(single_type["salary"]["from"]), int(single_type["salary"]["to"]))
+                        )
                 # Convert how info about salary is packed into a simple format of
                 # employment_types: {"b2b"-"$FROM-$TO $CURRENCY", "permanent"-"$FROM-$TO $CURRENCY"}
                 # if salary's not provided - set particular offer type to "NOT_PROVIDED"
@@ -179,6 +188,7 @@ class JustJoinIT:  # pylint: disable=R0903
                     else "NOT_PROVIDED"
                     for single_type in single_offer["employment_types"]
                 }
-                valid_offers.append(single_offer)
+
+                valid_offers.append((single_offer, avgs))
 
         return valid_offers

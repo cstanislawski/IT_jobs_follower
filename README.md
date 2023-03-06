@@ -24,6 +24,7 @@ JustJoinIT
   - SolidJobs
   - BulldogJob
 - List salary & sort by it in [job_offers.yaml](offers/job_offers.yaml)
+- Merge offers on different portals together based on the label
 - [JJI-only] If offer is for multiple cities link the main offer with cities listed
 - Provide link to company's glassdoor / other sites
 - Show difference in offers between days (what offers added, what removed):
