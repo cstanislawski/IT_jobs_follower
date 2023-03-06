@@ -12,7 +12,7 @@ from yaml import load, SafeLoader  # pylint: disable=E0401
 
 class NoFluffJobs:  # pylint: disable=R0903
     """
-    Class processing data from NoFluffJobs sites.
+    Class processing data from NoFluffJobs sites
     """
 
     __BASE_URL = "https://nofluffjobs.com/"
@@ -22,6 +22,7 @@ class NoFluffJobs:  # pylint: disable=R0903
     __CURRENCY_REGEX = r"currency:([A-z]+),"
     __RANGE_REGEX = r"range:\[([^\]]+)\]"
     __PERIOD_REGEX = r"period:([A-z]+)"
+    __RETRIES = 5
 
     def __init__(self) -> None:
         with open(file="config.yaml", mode="r", encoding="utf-8") as config_file:
@@ -33,35 +34,21 @@ class NoFluffJobs:  # pylint: disable=R0903
         """
         Loads all the offers present in data_sources, searches pages matching __OFFERS_REGEX
         """
-        retries = 5
         for src in self.data_sources:
             page = 1
             content = {"name": src["label"], "offers": []}
             while True:
                 session = Session()
-                retries = Retry(total=5, backoff_factor=1)
+                retries = Retry(total=self.__RETRIES, backoff_factor=1)
                 session.mount("https://", HTTPAdapter(max_retries=retries))
                 job_offers = findall(
                     self.__OFFERS_REGEX, session.get(src["url"] + str(page)).content.decode("utf-8")
                 )
                 if len(job_offers) > 0:
                     for offer in job_offers:
-                        employment_info, averages = self.__find_employment_info(offer)
+                        employment_info, average_salaries = self.__find_offer_content(offer)
                         content["offers"].append(
-                            OrderedDict(
-                                [
-                                    (
-                                        "id",
-                                        str(findall(r"([\d\w]+(\-[\d\w]+)+)", offer)[0][1]).replace(
-                                            "-", ""
-                                        ),
-                                    ),
-                                    ("job_name", findall(r"([\d\w]+(\-[\d\w]+)+)", offer)[0][0]),
-                                    ("url", self.__BASE_URL + offer),
-                                    ("employment_types", employment_info),
-                                    ("avg_salary", averages),
-                                ]
-                            )
+                            self.__prepare_final_offer(offer, employment_info, average_salaries)
                         )
                     page += 1
                     sleep(0.2)
@@ -70,9 +57,9 @@ class NoFluffJobs:  # pylint: disable=R0903
                         self.content.append(content)
                     break
 
-    def __find_employment_info(self, offer: dict):
+    def __find_offer_content(self, offer: dict):
         session = Session()
-        retries = Retry(total=5, backoff_factor=1)
+        retries = Retry(total=self.__RETRIES, backoff_factor=1)
         session.mount("https://", HTTPAdapter(max_retries=retries))
         offer_page = session.get(self.__BASE_URL + offer).content.decode("utf-8").replace("&q;", "")
 
@@ -109,3 +96,17 @@ class NoFluffJobs:  # pylint: disable=R0903
                 salary_range = "-".join(salary_range.split(","))
             return f"{salary_range} {currency}", avg_salary
         return None, None
+
+    def __prepare_final_offer(self, offer, employment_info, average_salaries):
+        return OrderedDict(
+            [
+                (
+                    "id",
+                    str(findall(r"([\d\w]+(\-[\d\w]+)+)", offer)[0][1]).replace("-", ""),
+                ),
+                ("job_name", findall(r"([\d\w]+(\-[\d\w]+)+)", offer)[0][0]),
+                ("url", self.__BASE_URL + offer),
+                ("employment_types", employment_info),
+                ("avg_salary", average_salaries),
+            ]
+        )

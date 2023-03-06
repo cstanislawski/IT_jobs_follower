@@ -52,39 +52,9 @@
       url: https://justjoin.it/offers/halfing-petersen-devops-engineer
       employment_types:
         b2b: 26000-29000 PLN
-    - id: halfing-petersen-devops-engineer-lublin
+    - id: halfing-petersen-devops-engineer-krakow
       job_name: DevOps Engineer
-      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-lublin
-      employment_types:
-        b2b: 26000-29000 PLN
-    - id: halfing-petersen-devops-engineer-katowice
-      job_name: DevOps Engineer
-      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-katowice
-      employment_types:
-        b2b: 26000-29000 PLN
-    - id: halfing-petersen-devops-engineer-szczecin
-      job_name: DevOps Engineer
-      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-szczecin
-      employment_types:
-        b2b: 26000-29000 PLN
-    - id: halfing-petersen-devops-engineer-bydgoszcz
-      job_name: DevOps Engineer
-      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-bydgoszcz
-      employment_types:
-        b2b: 26000-29000 PLN
-    - id: halfing-petersen-devops-engineer-poznan
-      job_name: DevOps Engineer
-      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-poznan
-      employment_types:
-        b2b: 26000-29000 PLN
-    - id: halfing-petersen-devops-engineer-gdansk
-      job_name: DevOps Engineer
-      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-gdansk
-      employment_types:
-        b2b: 26000-29000 PLN
-    - id: halfing-petersen-devops-engineer-lodz
-      job_name: DevOps Engineer
-      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-lodz
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-krakow
       employment_types:
         b2b: 26000-29000 PLN
     - id: halfing-petersen-devops-engineer-wroclaw
@@ -92,9 +62,39 @@
       url: https://justjoin.it/offers/halfing-petersen-devops-engineer-wroclaw
       employment_types:
         b2b: 26000-29000 PLN
-    - id: halfing-petersen-devops-engineer-krakow
+    - id: halfing-petersen-devops-engineer-lodz
       job_name: DevOps Engineer
-      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-krakow
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-lodz
+      employment_types:
+        b2b: 26000-29000 PLN
+    - id: halfing-petersen-devops-engineer-gdansk
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-gdansk
+      employment_types:
+        b2b: 26000-29000 PLN
+    - id: halfing-petersen-devops-engineer-poznan
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-poznan
+      employment_types:
+        b2b: 26000-29000 PLN
+    - id: halfing-petersen-devops-engineer-bydgoszcz
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-bydgoszcz
+      employment_types:
+        b2b: 26000-29000 PLN
+    - id: halfing-petersen-devops-engineer-szczecin
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-szczecin
+      employment_types:
+        b2b: 26000-29000 PLN
+    - id: halfing-petersen-devops-engineer-katowice
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-katowice
+      employment_types:
+        b2b: 26000-29000 PLN
+    - id: halfing-petersen-devops-engineer-lublin
+      job_name: DevOps Engineer
+      url: https://justjoin.it/offers/halfing-petersen-devops-engineer-lublin
       employment_types:
         b2b: 26000-29000 PLN
     - id: peopletrust-sp-z-o-o-devops-with-aws-warszawa
@@ -102,14 +102,14 @@
       url: https://justjoin.it/offers/peopletrust-sp-z-o-o-devops-with-aws-warszawa
       employment_types:
         b2b: 24840-29040 PLN
-    - id: peopletrust-sp-z-o-o-devops-with-aws-krakow
-      job_name: DevOps with AWS
-      url: https://justjoin.it/offers/peopletrust-sp-z-o-o-devops-with-aws-krakow
-      employment_types:
-        b2b: 24840-29040 PLN
     - id: peopletrust-sp-z-o-o-devops-with-aws-1598359f-fda0-493e-adb9-391b51ede1ec
       job_name: DevOps with AWS
       url: https://justjoin.it/offers/peopletrust-sp-z-o-o-devops-with-aws-1598359f-fda0-493e-adb9-391b51ede1ec
+      employment_types:
+        b2b: 24840-29040 PLN
+    - id: peopletrust-sp-z-o-o-devops-with-aws-krakow
+      job_name: DevOps with AWS
+      url: https://justjoin.it/offers/peopletrust-sp-z-o-o-devops-with-aws-krakow
       employment_types:
         b2b: 24840-29040 PLN
     - id: primaris-cloud-devops-engineer
