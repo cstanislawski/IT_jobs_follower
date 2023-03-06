@@ -23,7 +23,6 @@ JustJoinIT
 - Support job portals:
   - SolidJobs
   - BulldogJob
-- List salary & sort by it in [job_offers.yaml](offers/job_offers.yaml)
 - Merge offers on different portals together based on the label
 - [JJI-only] If offer is for multiple cities link the main offer with cities listed
 - Provide link to company's glassdoor / other sites
@@ -33,6 +32,7 @@ JustJoinIT
 - Generate HTML summary based on the info
 - Find duplicate offers on other websites (select best ones if they differ?)
 - Contributing.md (if one appears)
+- ~~List salary & sort by it in [job_offers.yaml](offers/job_offers.yaml)~~ - done 07.03.2023
 - ~~List days in order of newest -> oldest~~ - done 03.02.2023
 - ~~JustJoinIT - full support for remote offers~~ - done 26.02.2023
 - ~~NoFluffJobs - full support for all offers~~ - done 25.02.2023
