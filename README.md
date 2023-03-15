@@ -2,9 +2,9 @@
 
 ## Supported job portals
 
-NoFluffJobs
+NoFluffJobs - [source code](job_portals/nfj.py)
 
-JustJoinIT
+JustJoinIT - [source code](job_portals/jjt.py)
 
 ### Jobs portals planned to support
 
