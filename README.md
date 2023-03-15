@@ -4,7 +4,7 @@
 
 NoFluffJobs - [source code](job_portals/nfj.py)
 
-JustJoinIT - [source code](job_portals/jjt.py)
+JustJoinIT - [source code](job_portals/jji.py)
 
 ### Jobs portals planned to support
 
